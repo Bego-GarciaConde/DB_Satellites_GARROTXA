@@ -1,0 +1,4470 @@
+-- MySQL dump 10.13  Distrib 8.0.34, for Linux (x86_64)
+--
+-- Host: 127.0.0.1    Database: Rockstar_satellites_GARROTXA
+-- ------------------------------------------------------
+-- Server version	8.0.34-0ubuntu0.20.04.1
+
+/*!40101 SET @OLD_CHARACTER_SET_CLIENT=@@CHARACTER_SET_CLIENT */;
+/*!40101 SET @OLD_CHARACTER_SET_RESULTS=@@CHARACTER_SET_RESULTS */;
+/*!40101 SET @OLD_COLLATION_CONNECTION=@@COLLATION_CONNECTION */;
+/*!50503 SET NAMES utf8mb4 */;
+/*!40103 SET @OLD_TIME_ZONE=@@TIME_ZONE */;
+/*!40103 SET TIME_ZONE='+00:00' */;
+/*!40014 SET @OLD_UNIQUE_CHECKS=@@UNIQUE_CHECKS, UNIQUE_CHECKS=0 */;
+/*!40014 SET @OLD_FOREIGN_KEY_CHECKS=@@FOREIGN_KEY_CHECKS, FOREIGN_KEY_CHECKS=0 */;
+/*!40101 SET @OLD_SQL_MODE=@@SQL_MODE, SQL_MODE='NO_AUTO_VALUE_ON_ZERO' */;
+/*!40111 SET @OLD_SQL_NOTES=@@SQL_NOTES, SQL_NOTES=0 */;
+
+--
+-- Table structure for table `DM1052`
+--
+
+DROP TABLE IF EXISTS `DM1052`;
+/*!40101 SET @saved_cs_client     = @@character_set_client */;
+/*!50503 SET character_set_client = utf8mb4 */;
+CREATE TABLE `DM1052` (
+  `Snapshot` int NOT NULL,
+  `Lookback` decimal(5,2) DEFAULT NULL,
+  `X` decimal(5,2) DEFAULT NULL,
+  `Y` decimal(5,2) DEFAULT NULL,
+  `Z` decimal(5,2) DEFAULT NULL,
+  `R` decimal(5,2) DEFAULT NULL,
+  `Mass` decimal(12,2) DEFAULT NULL,
+  `Mstars` decimal(12,2) DEFAULT NULL,
+  PRIMARY KEY (`Snapshot`)
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci;
+/*!40101 SET character_set_client = @saved_cs_client */;
+
+--
+-- Table structure for table `DM1065`
+--
+
+DROP TABLE IF EXISTS `DM1065`;
+/*!40101 SET @saved_cs_client     = @@character_set_client */;
+/*!50503 SET character_set_client = utf8mb4 */;
+CREATE TABLE `DM1065` (
+  `Snapshot` int NOT NULL,
+  `Lookback` decimal(5,2) DEFAULT NULL,
+  `X` decimal(5,2) DEFAULT NULL,
+  `Y` decimal(5,2) DEFAULT NULL,
+  `Z` decimal(5,2) DEFAULT NULL,
+  `R` decimal(5,2) DEFAULT NULL,
+  `Mass` decimal(12,2) DEFAULT NULL,
+  `Mstars` decimal(12,2) DEFAULT NULL,
+  PRIMARY KEY (`Snapshot`)
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci;
+/*!40101 SET character_set_client = @saved_cs_client */;
+
+--
+-- Table structure for table `DM1080`
+--
+
+DROP TABLE IF EXISTS `DM1080`;
+/*!40101 SET @saved_cs_client     = @@character_set_client */;
+/*!50503 SET character_set_client = utf8mb4 */;
+CREATE TABLE `DM1080` (
+  `Snapshot` int NOT NULL,
+  `Lookback` decimal(5,2) DEFAULT NULL,
+  `X` decimal(5,2) DEFAULT NULL,
+  `Y` decimal(5,2) DEFAULT NULL,
+  `Z` decimal(5,2) DEFAULT NULL,
+  `R` decimal(5,2) DEFAULT NULL,
+  `Mass` decimal(12,2) DEFAULT NULL,
+  `Mstars` decimal(12,2) DEFAULT NULL,
+  PRIMARY KEY (`Snapshot`)
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci;
+/*!40101 SET character_set_client = @saved_cs_client */;
+
+--
+-- Table structure for table `DM1088`
+--
+
+DROP TABLE IF EXISTS `DM1088`;
+/*!40101 SET @saved_cs_client     = @@character_set_client */;
+/*!50503 SET character_set_client = utf8mb4 */;
+CREATE TABLE `DM1088` (
+  `Snapshot` int NOT NULL,
+  `Lookback` decimal(5,2) DEFAULT NULL,
+  `X` decimal(5,2) DEFAULT NULL,
+  `Y` decimal(5,2) DEFAULT NULL,
+  `Z` decimal(5,2) DEFAULT NULL,
+  `R` decimal(5,2) DEFAULT NULL,
+  `Mass` decimal(12,2) DEFAULT NULL,
+  `Mstars` decimal(12,2) DEFAULT NULL,
+  PRIMARY KEY (`Snapshot`)
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci;
+/*!40101 SET character_set_client = @saved_cs_client */;
+
+--
+-- Table structure for table `DM1106`
+--
+
+DROP TABLE IF EXISTS `DM1106`;
+/*!40101 SET @saved_cs_client     = @@character_set_client */;
+/*!50503 SET character_set_client = utf8mb4 */;
+CREATE TABLE `DM1106` (
+  `Snapshot` int NOT NULL,
+  `Lookback` decimal(5,2) DEFAULT NULL,
+  `X` decimal(5,2) DEFAULT NULL,
+  `Y` decimal(5,2) DEFAULT NULL,
+  `Z` decimal(5,2) DEFAULT NULL,
+  `R` decimal(5,2) DEFAULT NULL,
+  `Mass` decimal(12,2) DEFAULT NULL,
+  `Mstars` decimal(12,2) DEFAULT NULL,
+  PRIMARY KEY (`Snapshot`)
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci;
+/*!40101 SET character_set_client = @saved_cs_client */;
+
+--
+-- Table structure for table `DM1119`
+--
+
+DROP TABLE IF EXISTS `DM1119`;
+/*!40101 SET @saved_cs_client     = @@character_set_client */;
+/*!50503 SET character_set_client = utf8mb4 */;
+CREATE TABLE `DM1119` (
+  `Snapshot` int NOT NULL,
+  `Lookback` decimal(5,2) DEFAULT NULL,
+  `X` decimal(5,2) DEFAULT NULL,
+  `Y` decimal(5,2) DEFAULT NULL,
+  `Z` decimal(5,2) DEFAULT NULL,
+  `R` decimal(5,2) DEFAULT NULL,
+  `Mass` decimal(12,2) DEFAULT NULL,
+  `Mstars` decimal(12,2) DEFAULT NULL,
+  PRIMARY KEY (`Snapshot`)
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci;
+/*!40101 SET character_set_client = @saved_cs_client */;
+
+--
+-- Table structure for table `DM1123`
+--
+
+DROP TABLE IF EXISTS `DM1123`;
+/*!40101 SET @saved_cs_client     = @@character_set_client */;
+/*!50503 SET character_set_client = utf8mb4 */;
+CREATE TABLE `DM1123` (
+  `Snapshot` int NOT NULL,
+  `Lookback` decimal(5,2) DEFAULT NULL,
+  `X` decimal(5,2) DEFAULT NULL,
+  `Y` decimal(5,2) DEFAULT NULL,
+  `Z` decimal(5,2) DEFAULT NULL,
+  `R` decimal(5,2) DEFAULT NULL,
+  `Mass` decimal(12,2) DEFAULT NULL,
+  `Mstars` decimal(12,2) DEFAULT NULL,
+  PRIMARY KEY (`Snapshot`)
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci;
+/*!40101 SET character_set_client = @saved_cs_client */;
+
+--
+-- Table structure for table `DM1125`
+--
+
+DROP TABLE IF EXISTS `DM1125`;
+/*!40101 SET @saved_cs_client     = @@character_set_client */;
+/*!50503 SET character_set_client = utf8mb4 */;
+CREATE TABLE `DM1125` (
+  `Snapshot` int NOT NULL,
+  `Lookback` decimal(5,2) DEFAULT NULL,
+  `X` decimal(5,2) DEFAULT NULL,
+  `Y` decimal(5,2) DEFAULT NULL,
+  `Z` decimal(5,2) DEFAULT NULL,
+  `R` decimal(5,2) DEFAULT NULL,
+  `Mass` decimal(12,2) DEFAULT NULL,
+  `Mstars` decimal(12,2) DEFAULT NULL,
+  PRIMARY KEY (`Snapshot`)
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci;
+/*!40101 SET character_set_client = @saved_cs_client */;
+
+--
+-- Table structure for table `DM1126`
+--
+
+DROP TABLE IF EXISTS `DM1126`;
+/*!40101 SET @saved_cs_client     = @@character_set_client */;
+/*!50503 SET character_set_client = utf8mb4 */;
+CREATE TABLE `DM1126` (
+  `Snapshot` int NOT NULL,
+  `Lookback` decimal(5,2) DEFAULT NULL,
+  `X` decimal(5,2) DEFAULT NULL,
+  `Y` decimal(5,2) DEFAULT NULL,
+  `Z` decimal(5,2) DEFAULT NULL,
+  `R` decimal(5,2) DEFAULT NULL,
+  `Mass` decimal(12,2) DEFAULT NULL,
+  `Mstars` decimal(12,2) DEFAULT NULL,
+  PRIMARY KEY (`Snapshot`)
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci;
+/*!40101 SET character_set_client = @saved_cs_client */;
+
+--
+-- Table structure for table `DM1134`
+--
+
+DROP TABLE IF EXISTS `DM1134`;
+/*!40101 SET @saved_cs_client     = @@character_set_client */;
+/*!50503 SET character_set_client = utf8mb4 */;
+CREATE TABLE `DM1134` (
+  `Snapshot` int NOT NULL,
+  `Lookback` decimal(5,2) DEFAULT NULL,
+  `X` decimal(5,2) DEFAULT NULL,
+  `Y` decimal(5,2) DEFAULT NULL,
+  `Z` decimal(5,2) DEFAULT NULL,
+  `R` decimal(5,2) DEFAULT NULL,
+  `Mass` decimal(12,2) DEFAULT NULL,
+  `Mstars` decimal(12,2) DEFAULT NULL,
+  PRIMARY KEY (`Snapshot`)
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci;
+/*!40101 SET character_set_client = @saved_cs_client */;
+
+--
+-- Table structure for table `DM1138`
+--
+
+DROP TABLE IF EXISTS `DM1138`;
+/*!40101 SET @saved_cs_client     = @@character_set_client */;
+/*!50503 SET character_set_client = utf8mb4 */;
+CREATE TABLE `DM1138` (
+  `Snapshot` int NOT NULL,
+  `Lookback` decimal(5,2) DEFAULT NULL,
+  `X` decimal(5,2) DEFAULT NULL,
+  `Y` decimal(5,2) DEFAULT NULL,
+  `Z` decimal(5,2) DEFAULT NULL,
+  `R` decimal(5,2) DEFAULT NULL,
+  `Mass` decimal(12,2) DEFAULT NULL,
+  `Mstars` decimal(12,2) DEFAULT NULL,
+  PRIMARY KEY (`Snapshot`)
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci;
+/*!40101 SET character_set_client = @saved_cs_client */;
+
+--
+-- Table structure for table `DM1141`
+--
+
+DROP TABLE IF EXISTS `DM1141`;
+/*!40101 SET @saved_cs_client     = @@character_set_client */;
+/*!50503 SET character_set_client = utf8mb4 */;
+CREATE TABLE `DM1141` (
+  `Snapshot` int NOT NULL,
+  `Lookback` decimal(5,2) DEFAULT NULL,
+  `X` decimal(5,2) DEFAULT NULL,
+  `Y` decimal(5,2) DEFAULT NULL,
+  `Z` decimal(5,2) DEFAULT NULL,
+  `R` decimal(5,2) DEFAULT NULL,
+  `Mass` decimal(12,2) DEFAULT NULL,
+  `Mstars` decimal(12,2) DEFAULT NULL,
+  PRIMARY KEY (`Snapshot`)
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci;
+/*!40101 SET character_set_client = @saved_cs_client */;
+
+--
+-- Table structure for table `DM1143`
+--
+
+DROP TABLE IF EXISTS `DM1143`;
+/*!40101 SET @saved_cs_client     = @@character_set_client */;
+/*!50503 SET character_set_client = utf8mb4 */;
+CREATE TABLE `DM1143` (
+  `Snapshot` int NOT NULL,
+  `Lookback` decimal(5,2) DEFAULT NULL,
+  `X` decimal(5,2) DEFAULT NULL,
+  `Y` decimal(5,2) DEFAULT NULL,
+  `Z` decimal(5,2) DEFAULT NULL,
+  `R` decimal(5,2) DEFAULT NULL,
+  `Mass` decimal(12,2) DEFAULT NULL,
+  `Mstars` decimal(12,2) DEFAULT NULL,
+  PRIMARY KEY (`Snapshot`)
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci;
+/*!40101 SET character_set_client = @saved_cs_client */;
+
+--
+-- Table structure for table `DM1154`
+--
+
+DROP TABLE IF EXISTS `DM1154`;
+/*!40101 SET @saved_cs_client     = @@character_set_client */;
+/*!50503 SET character_set_client = utf8mb4 */;
+CREATE TABLE `DM1154` (
+  `Snapshot` int NOT NULL,
+  `Lookback` decimal(5,2) DEFAULT NULL,
+  `X` decimal(5,2) DEFAULT NULL,
+  `Y` decimal(5,2) DEFAULT NULL,
+  `Z` decimal(5,2) DEFAULT NULL,
+  `R` decimal(5,2) DEFAULT NULL,
+  `Mass` decimal(12,2) DEFAULT NULL,
+  `Mstars` decimal(12,2) DEFAULT NULL,
+  PRIMARY KEY (`Snapshot`)
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci;
+/*!40101 SET character_set_client = @saved_cs_client */;
+
+--
+-- Table structure for table `DM1156`
+--
+
+DROP TABLE IF EXISTS `DM1156`;
+/*!40101 SET @saved_cs_client     = @@character_set_client */;
+/*!50503 SET character_set_client = utf8mb4 */;
+CREATE TABLE `DM1156` (
+  `Snapshot` int NOT NULL,
+  `Lookback` decimal(5,2) DEFAULT NULL,
+  `X` decimal(5,2) DEFAULT NULL,
+  `Y` decimal(5,2) DEFAULT NULL,
+  `Z` decimal(5,2) DEFAULT NULL,
+  `R` decimal(5,2) DEFAULT NULL,
+  `Mass` decimal(12,2) DEFAULT NULL,
+  `Mstars` decimal(12,2) DEFAULT NULL,
+  PRIMARY KEY (`Snapshot`)
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci;
+/*!40101 SET character_set_client = @saved_cs_client */;
+
+--
+-- Table structure for table `DM1157`
+--
+
+DROP TABLE IF EXISTS `DM1157`;
+/*!40101 SET @saved_cs_client     = @@character_set_client */;
+/*!50503 SET character_set_client = utf8mb4 */;
+CREATE TABLE `DM1157` (
+  `Snapshot` int NOT NULL,
+  `Lookback` decimal(5,2) DEFAULT NULL,
+  `X` decimal(5,2) DEFAULT NULL,
+  `Y` decimal(5,2) DEFAULT NULL,
+  `Z` decimal(5,2) DEFAULT NULL,
+  `R` decimal(5,2) DEFAULT NULL,
+  `Mass` decimal(12,2) DEFAULT NULL,
+  `Mstars` decimal(12,2) DEFAULT NULL,
+  PRIMARY KEY (`Snapshot`)
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci;
+/*!40101 SET character_set_client = @saved_cs_client */;
+
+--
+-- Table structure for table `DM1171`
+--
+
+DROP TABLE IF EXISTS `DM1171`;
+/*!40101 SET @saved_cs_client     = @@character_set_client */;
+/*!50503 SET character_set_client = utf8mb4 */;
+CREATE TABLE `DM1171` (
+  `Snapshot` int NOT NULL,
+  `Lookback` decimal(5,2) DEFAULT NULL,
+  `X` decimal(5,2) DEFAULT NULL,
+  `Y` decimal(5,2) DEFAULT NULL,
+  `Z` decimal(5,2) DEFAULT NULL,
+  `R` decimal(5,2) DEFAULT NULL,
+  `Mass` decimal(12,2) DEFAULT NULL,
+  `Mstars` decimal(12,2) DEFAULT NULL,
+  PRIMARY KEY (`Snapshot`)
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci;
+/*!40101 SET character_set_client = @saved_cs_client */;
+
+--
+-- Table structure for table `DM1173`
+--
+
+DROP TABLE IF EXISTS `DM1173`;
+/*!40101 SET @saved_cs_client     = @@character_set_client */;
+/*!50503 SET character_set_client = utf8mb4 */;
+CREATE TABLE `DM1173` (
+  `Snapshot` int NOT NULL,
+  `Lookback` decimal(5,2) DEFAULT NULL,
+  `X` decimal(5,2) DEFAULT NULL,
+  `Y` decimal(5,2) DEFAULT NULL,
+  `Z` decimal(5,2) DEFAULT NULL,
+  `R` decimal(5,2) DEFAULT NULL,
+  `Mass` decimal(12,2) DEFAULT NULL,
+  `Mstars` decimal(12,2) DEFAULT NULL,
+  PRIMARY KEY (`Snapshot`)
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci;
+/*!40101 SET character_set_client = @saved_cs_client */;
+
+--
+-- Table structure for table `DM1175`
+--
+
+DROP TABLE IF EXISTS `DM1175`;
+/*!40101 SET @saved_cs_client     = @@character_set_client */;
+/*!50503 SET character_set_client = utf8mb4 */;
+CREATE TABLE `DM1175` (
+  `Snapshot` int NOT NULL,
+  `Lookback` decimal(5,2) DEFAULT NULL,
+  `X` decimal(5,2) DEFAULT NULL,
+  `Y` decimal(5,2) DEFAULT NULL,
+  `Z` decimal(5,2) DEFAULT NULL,
+  `R` decimal(5,2) DEFAULT NULL,
+  `Mass` decimal(12,2) DEFAULT NULL,
+  `Mstars` decimal(12,2) DEFAULT NULL,
+  PRIMARY KEY (`Snapshot`)
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci;
+/*!40101 SET character_set_client = @saved_cs_client */;
+
+--
+-- Table structure for table `DM1179`
+--
+
+DROP TABLE IF EXISTS `DM1179`;
+/*!40101 SET @saved_cs_client     = @@character_set_client */;
+/*!50503 SET character_set_client = utf8mb4 */;
+CREATE TABLE `DM1179` (
+  `Snapshot` int NOT NULL,
+  `Lookback` decimal(5,2) DEFAULT NULL,
+  `X` decimal(5,2) DEFAULT NULL,
+  `Y` decimal(5,2) DEFAULT NULL,
+  `Z` decimal(5,2) DEFAULT NULL,
+  `R` decimal(5,2) DEFAULT NULL,
+  `Mass` decimal(12,2) DEFAULT NULL,
+  `Mstars` decimal(12,2) DEFAULT NULL,
+  PRIMARY KEY (`Snapshot`)
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci;
+/*!40101 SET character_set_client = @saved_cs_client */;
+
+--
+-- Table structure for table `DM1181`
+--
+
+DROP TABLE IF EXISTS `DM1181`;
+/*!40101 SET @saved_cs_client     = @@character_set_client */;
+/*!50503 SET character_set_client = utf8mb4 */;
+CREATE TABLE `DM1181` (
+  `Snapshot` int NOT NULL,
+  `Lookback` decimal(5,2) DEFAULT NULL,
+  `X` decimal(5,2) DEFAULT NULL,
+  `Y` decimal(5,2) DEFAULT NULL,
+  `Z` decimal(5,2) DEFAULT NULL,
+  `R` decimal(5,2) DEFAULT NULL,
+  `Mass` decimal(12,2) DEFAULT NULL,
+  `Mstars` decimal(12,2) DEFAULT NULL,
+  PRIMARY KEY (`Snapshot`)
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci;
+/*!40101 SET character_set_client = @saved_cs_client */;
+
+--
+-- Table structure for table `DM1189`
+--
+
+DROP TABLE IF EXISTS `DM1189`;
+/*!40101 SET @saved_cs_client     = @@character_set_client */;
+/*!50503 SET character_set_client = utf8mb4 */;
+CREATE TABLE `DM1189` (
+  `Snapshot` int NOT NULL,
+  `Lookback` decimal(5,2) DEFAULT NULL,
+  `X` decimal(5,2) DEFAULT NULL,
+  `Y` decimal(5,2) DEFAULT NULL,
+  `Z` decimal(5,2) DEFAULT NULL,
+  `R` decimal(5,2) DEFAULT NULL,
+  `Mass` decimal(12,2) DEFAULT NULL,
+  `Mstars` decimal(12,2) DEFAULT NULL,
+  PRIMARY KEY (`Snapshot`)
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci;
+/*!40101 SET character_set_client = @saved_cs_client */;
+
+--
+-- Table structure for table `DM1192`
+--
+
+DROP TABLE IF EXISTS `DM1192`;
+/*!40101 SET @saved_cs_client     = @@character_set_client */;
+/*!50503 SET character_set_client = utf8mb4 */;
+CREATE TABLE `DM1192` (
+  `Snapshot` int NOT NULL,
+  `Lookback` decimal(5,2) DEFAULT NULL,
+  `X` decimal(5,2) DEFAULT NULL,
+  `Y` decimal(5,2) DEFAULT NULL,
+  `Z` decimal(5,2) DEFAULT NULL,
+  `R` decimal(5,2) DEFAULT NULL,
+  `Mass` decimal(12,2) DEFAULT NULL,
+  `Mstars` decimal(12,2) DEFAULT NULL,
+  PRIMARY KEY (`Snapshot`)
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci;
+/*!40101 SET character_set_client = @saved_cs_client */;
+
+--
+-- Table structure for table `DM1195`
+--
+
+DROP TABLE IF EXISTS `DM1195`;
+/*!40101 SET @saved_cs_client     = @@character_set_client */;
+/*!50503 SET character_set_client = utf8mb4 */;
+CREATE TABLE `DM1195` (
+  `Snapshot` int NOT NULL,
+  `Lookback` decimal(5,2) DEFAULT NULL,
+  `X` decimal(5,2) DEFAULT NULL,
+  `Y` decimal(5,2) DEFAULT NULL,
+  `Z` decimal(5,2) DEFAULT NULL,
+  `R` decimal(5,2) DEFAULT NULL,
+  `Mass` decimal(12,2) DEFAULT NULL,
+  `Mstars` decimal(12,2) DEFAULT NULL,
+  PRIMARY KEY (`Snapshot`)
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci;
+/*!40101 SET character_set_client = @saved_cs_client */;
+
+--
+-- Table structure for table `DM1197`
+--
+
+DROP TABLE IF EXISTS `DM1197`;
+/*!40101 SET @saved_cs_client     = @@character_set_client */;
+/*!50503 SET character_set_client = utf8mb4 */;
+CREATE TABLE `DM1197` (
+  `Snapshot` int NOT NULL,
+  `Lookback` decimal(5,2) DEFAULT NULL,
+  `X` decimal(5,2) DEFAULT NULL,
+  `Y` decimal(5,2) DEFAULT NULL,
+  `Z` decimal(5,2) DEFAULT NULL,
+  `R` decimal(5,2) DEFAULT NULL,
+  `Mass` decimal(12,2) DEFAULT NULL,
+  `Mstars` decimal(12,2) DEFAULT NULL,
+  PRIMARY KEY (`Snapshot`)
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci;
+/*!40101 SET character_set_client = @saved_cs_client */;
+
+--
+-- Table structure for table `DM1198`
+--
+
+DROP TABLE IF EXISTS `DM1198`;
+/*!40101 SET @saved_cs_client     = @@character_set_client */;
+/*!50503 SET character_set_client = utf8mb4 */;
+CREATE TABLE `DM1198` (
+  `Snapshot` int NOT NULL,
+  `Lookback` decimal(5,2) DEFAULT NULL,
+  `X` decimal(5,2) DEFAULT NULL,
+  `Y` decimal(5,2) DEFAULT NULL,
+  `Z` decimal(5,2) DEFAULT NULL,
+  `R` decimal(5,2) DEFAULT NULL,
+  `Mass` decimal(12,2) DEFAULT NULL,
+  `Mstars` decimal(12,2) DEFAULT NULL,
+  PRIMARY KEY (`Snapshot`)
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci;
+/*!40101 SET character_set_client = @saved_cs_client */;
+
+--
+-- Table structure for table `DM1223`
+--
+
+DROP TABLE IF EXISTS `DM1223`;
+/*!40101 SET @saved_cs_client     = @@character_set_client */;
+/*!50503 SET character_set_client = utf8mb4 */;
+CREATE TABLE `DM1223` (
+  `Snapshot` int NOT NULL,
+  `Lookback` decimal(5,2) DEFAULT NULL,
+  `X` decimal(5,2) DEFAULT NULL,
+  `Y` decimal(5,2) DEFAULT NULL,
+  `Z` decimal(5,2) DEFAULT NULL,
+  `R` decimal(5,2) DEFAULT NULL,
+  `Mass` decimal(12,2) DEFAULT NULL,
+  `Mstars` decimal(12,2) DEFAULT NULL,
+  PRIMARY KEY (`Snapshot`)
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci;
+/*!40101 SET character_set_client = @saved_cs_client */;
+
+--
+-- Table structure for table `DM1294`
+--
+
+DROP TABLE IF EXISTS `DM1294`;
+/*!40101 SET @saved_cs_client     = @@character_set_client */;
+/*!50503 SET character_set_client = utf8mb4 */;
+CREATE TABLE `DM1294` (
+  `Snapshot` int NOT NULL,
+  `Lookback` decimal(5,2) DEFAULT NULL,
+  `X` decimal(5,2) DEFAULT NULL,
+  `Y` decimal(5,2) DEFAULT NULL,
+  `Z` decimal(5,2) DEFAULT NULL,
+  `R` decimal(5,2) DEFAULT NULL,
+  `Mass` decimal(12,2) DEFAULT NULL,
+  `Mstars` decimal(12,2) DEFAULT NULL,
+  PRIMARY KEY (`Snapshot`)
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci;
+/*!40101 SET character_set_client = @saved_cs_client */;
+
+--
+-- Table structure for table `DM1369`
+--
+
+DROP TABLE IF EXISTS `DM1369`;
+/*!40101 SET @saved_cs_client     = @@character_set_client */;
+/*!50503 SET character_set_client = utf8mb4 */;
+CREATE TABLE `DM1369` (
+  `Snapshot` int NOT NULL,
+  `Lookback` decimal(5,2) DEFAULT NULL,
+  `X` decimal(5,2) DEFAULT NULL,
+  `Y` decimal(5,2) DEFAULT NULL,
+  `Z` decimal(5,2) DEFAULT NULL,
+  `R` decimal(5,2) DEFAULT NULL,
+  `Mass` decimal(12,2) DEFAULT NULL,
+  `Mstars` decimal(12,2) DEFAULT NULL,
+  PRIMARY KEY (`Snapshot`)
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci;
+/*!40101 SET character_set_client = @saved_cs_client */;
+
+--
+-- Table structure for table `DM1403`
+--
+
+DROP TABLE IF EXISTS `DM1403`;
+/*!40101 SET @saved_cs_client     = @@character_set_client */;
+/*!50503 SET character_set_client = utf8mb4 */;
+CREATE TABLE `DM1403` (
+  `Snapshot` int NOT NULL,
+  `Lookback` decimal(5,2) DEFAULT NULL,
+  `X` decimal(5,2) DEFAULT NULL,
+  `Y` decimal(5,2) DEFAULT NULL,
+  `Z` decimal(5,2) DEFAULT NULL,
+  `R` decimal(5,2) DEFAULT NULL,
+  `Mass` decimal(12,2) DEFAULT NULL,
+  `Mstars` decimal(12,2) DEFAULT NULL,
+  PRIMARY KEY (`Snapshot`)
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci;
+/*!40101 SET character_set_client = @saved_cs_client */;
+
+--
+-- Table structure for table `DM1436`
+--
+
+DROP TABLE IF EXISTS `DM1436`;
+/*!40101 SET @saved_cs_client     = @@character_set_client */;
+/*!50503 SET character_set_client = utf8mb4 */;
+CREATE TABLE `DM1436` (
+  `Snapshot` int NOT NULL,
+  `Lookback` decimal(5,2) DEFAULT NULL,
+  `X` decimal(5,2) DEFAULT NULL,
+  `Y` decimal(5,2) DEFAULT NULL,
+  `Z` decimal(5,2) DEFAULT NULL,
+  `R` decimal(5,2) DEFAULT NULL,
+  `Mass` decimal(12,2) DEFAULT NULL,
+  `Mstars` decimal(12,2) DEFAULT NULL,
+  PRIMARY KEY (`Snapshot`)
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci;
+/*!40101 SET character_set_client = @saved_cs_client */;
+
+--
+-- Table structure for table `DM1504`
+--
+
+DROP TABLE IF EXISTS `DM1504`;
+/*!40101 SET @saved_cs_client     = @@character_set_client */;
+/*!50503 SET character_set_client = utf8mb4 */;
+CREATE TABLE `DM1504` (
+  `Snapshot` int NOT NULL,
+  `Lookback` decimal(5,2) DEFAULT NULL,
+  `X` decimal(5,2) DEFAULT NULL,
+  `Y` decimal(5,2) DEFAULT NULL,
+  `Z` decimal(5,2) DEFAULT NULL,
+  `R` decimal(5,2) DEFAULT NULL,
+  `Mass` decimal(12,2) DEFAULT NULL,
+  `Mstars` decimal(12,2) DEFAULT NULL,
+  PRIMARY KEY (`Snapshot`)
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci;
+/*!40101 SET character_set_client = @saved_cs_client */;
+
+--
+-- Table structure for table `DM1506`
+--
+
+DROP TABLE IF EXISTS `DM1506`;
+/*!40101 SET @saved_cs_client     = @@character_set_client */;
+/*!50503 SET character_set_client = utf8mb4 */;
+CREATE TABLE `DM1506` (
+  `Snapshot` int NOT NULL,
+  `Lookback` decimal(5,2) DEFAULT NULL,
+  `X` decimal(5,2) DEFAULT NULL,
+  `Y` decimal(5,2) DEFAULT NULL,
+  `Z` decimal(5,2) DEFAULT NULL,
+  `R` decimal(5,2) DEFAULT NULL,
+  `Mass` decimal(12,2) DEFAULT NULL,
+  `Mstars` decimal(12,2) DEFAULT NULL,
+  PRIMARY KEY (`Snapshot`)
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci;
+/*!40101 SET character_set_client = @saved_cs_client */;
+
+--
+-- Table structure for table `DM1510`
+--
+
+DROP TABLE IF EXISTS `DM1510`;
+/*!40101 SET @saved_cs_client     = @@character_set_client */;
+/*!50503 SET character_set_client = utf8mb4 */;
+CREATE TABLE `DM1510` (
+  `Snapshot` int NOT NULL,
+  `Lookback` decimal(5,2) DEFAULT NULL,
+  `X` decimal(5,2) DEFAULT NULL,
+  `Y` decimal(5,2) DEFAULT NULL,
+  `Z` decimal(5,2) DEFAULT NULL,
+  `R` decimal(5,2) DEFAULT NULL,
+  `Mass` decimal(12,2) DEFAULT NULL,
+  `Mstars` decimal(12,2) DEFAULT NULL,
+  PRIMARY KEY (`Snapshot`)
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci;
+/*!40101 SET character_set_client = @saved_cs_client */;
+
+--
+-- Table structure for table `DM1543`
+--
+
+DROP TABLE IF EXISTS `DM1543`;
+/*!40101 SET @saved_cs_client     = @@character_set_client */;
+/*!50503 SET character_set_client = utf8mb4 */;
+CREATE TABLE `DM1543` (
+  `Snapshot` int NOT NULL,
+  `Lookback` decimal(5,2) DEFAULT NULL,
+  `X` decimal(5,2) DEFAULT NULL,
+  `Y` decimal(5,2) DEFAULT NULL,
+  `Z` decimal(5,2) DEFAULT NULL,
+  `R` decimal(5,2) DEFAULT NULL,
+  `Mass` decimal(12,2) DEFAULT NULL,
+  `Mstars` decimal(12,2) DEFAULT NULL,
+  PRIMARY KEY (`Snapshot`)
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci;
+/*!40101 SET character_set_client = @saved_cs_client */;
+
+--
+-- Table structure for table `DM1544`
+--
+
+DROP TABLE IF EXISTS `DM1544`;
+/*!40101 SET @saved_cs_client     = @@character_set_client */;
+/*!50503 SET character_set_client = utf8mb4 */;
+CREATE TABLE `DM1544` (
+  `Snapshot` int NOT NULL,
+  `Lookback` decimal(5,2) DEFAULT NULL,
+  `X` decimal(5,2) DEFAULT NULL,
+  `Y` decimal(5,2) DEFAULT NULL,
+  `Z` decimal(5,2) DEFAULT NULL,
+  `R` decimal(5,2) DEFAULT NULL,
+  `Mass` decimal(12,2) DEFAULT NULL,
+  `Mstars` decimal(12,2) DEFAULT NULL,
+  PRIMARY KEY (`Snapshot`)
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci;
+/*!40101 SET character_set_client = @saved_cs_client */;
+
+--
+-- Table structure for table `DM1567`
+--
+
+DROP TABLE IF EXISTS `DM1567`;
+/*!40101 SET @saved_cs_client     = @@character_set_client */;
+/*!50503 SET character_set_client = utf8mb4 */;
+CREATE TABLE `DM1567` (
+  `Snapshot` int NOT NULL,
+  `Lookback` decimal(5,2) DEFAULT NULL,
+  `X` decimal(5,2) DEFAULT NULL,
+  `Y` decimal(5,2) DEFAULT NULL,
+  `Z` decimal(5,2) DEFAULT NULL,
+  `R` decimal(5,2) DEFAULT NULL,
+  `Mass` decimal(12,2) DEFAULT NULL,
+  `Mstars` decimal(12,2) DEFAULT NULL,
+  PRIMARY KEY (`Snapshot`)
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci;
+/*!40101 SET character_set_client = @saved_cs_client */;
+
+--
+-- Table structure for table `DM1577`
+--
+
+DROP TABLE IF EXISTS `DM1577`;
+/*!40101 SET @saved_cs_client     = @@character_set_client */;
+/*!50503 SET character_set_client = utf8mb4 */;
+CREATE TABLE `DM1577` (
+  `Snapshot` int NOT NULL,
+  `Lookback` decimal(5,2) DEFAULT NULL,
+  `X` decimal(5,2) DEFAULT NULL,
+  `Y` decimal(5,2) DEFAULT NULL,
+  `Z` decimal(5,2) DEFAULT NULL,
+  `R` decimal(5,2) DEFAULT NULL,
+  `Mass` decimal(12,2) DEFAULT NULL,
+  `Mstars` decimal(12,2) DEFAULT NULL,
+  PRIMARY KEY (`Snapshot`)
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci;
+/*!40101 SET character_set_client = @saved_cs_client */;
+
+--
+-- Table structure for table `DM1593`
+--
+
+DROP TABLE IF EXISTS `DM1593`;
+/*!40101 SET @saved_cs_client     = @@character_set_client */;
+/*!50503 SET character_set_client = utf8mb4 */;
+CREATE TABLE `DM1593` (
+  `Snapshot` int NOT NULL,
+  `Lookback` decimal(5,2) DEFAULT NULL,
+  `X` decimal(5,2) DEFAULT NULL,
+  `Y` decimal(5,2) DEFAULT NULL,
+  `Z` decimal(5,2) DEFAULT NULL,
+  `R` decimal(5,2) DEFAULT NULL,
+  `Mass` decimal(12,2) DEFAULT NULL,
+  `Mstars` decimal(12,2) DEFAULT NULL,
+  PRIMARY KEY (`Snapshot`)
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci;
+/*!40101 SET character_set_client = @saved_cs_client */;
+
+--
+-- Table structure for table `DM1609`
+--
+
+DROP TABLE IF EXISTS `DM1609`;
+/*!40101 SET @saved_cs_client     = @@character_set_client */;
+/*!50503 SET character_set_client = utf8mb4 */;
+CREATE TABLE `DM1609` (
+  `Snapshot` int NOT NULL,
+  `Lookback` decimal(5,2) DEFAULT NULL,
+  `X` decimal(5,2) DEFAULT NULL,
+  `Y` decimal(5,2) DEFAULT NULL,
+  `Z` decimal(5,2) DEFAULT NULL,
+  `R` decimal(5,2) DEFAULT NULL,
+  `Mass` decimal(12,2) DEFAULT NULL,
+  `Mstars` decimal(12,2) DEFAULT NULL,
+  PRIMARY KEY (`Snapshot`)
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci;
+/*!40101 SET character_set_client = @saved_cs_client */;
+
+--
+-- Table structure for table `DM1616`
+--
+
+DROP TABLE IF EXISTS `DM1616`;
+/*!40101 SET @saved_cs_client     = @@character_set_client */;
+/*!50503 SET character_set_client = utf8mb4 */;
+CREATE TABLE `DM1616` (
+  `Snapshot` int NOT NULL,
+  `Lookback` decimal(5,2) DEFAULT NULL,
+  `X` decimal(5,2) DEFAULT NULL,
+  `Y` decimal(5,2) DEFAULT NULL,
+  `Z` decimal(5,2) DEFAULT NULL,
+  `R` decimal(5,2) DEFAULT NULL,
+  `Mass` decimal(12,2) DEFAULT NULL,
+  `Mstars` decimal(12,2) DEFAULT NULL,
+  PRIMARY KEY (`Snapshot`)
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci;
+/*!40101 SET character_set_client = @saved_cs_client */;
+
+--
+-- Table structure for table `DM1624`
+--
+
+DROP TABLE IF EXISTS `DM1624`;
+/*!40101 SET @saved_cs_client     = @@character_set_client */;
+/*!50503 SET character_set_client = utf8mb4 */;
+CREATE TABLE `DM1624` (
+  `Snapshot` int NOT NULL,
+  `Lookback` decimal(5,2) DEFAULT NULL,
+  `X` decimal(5,2) DEFAULT NULL,
+  `Y` decimal(5,2) DEFAULT NULL,
+  `Z` decimal(5,2) DEFAULT NULL,
+  `R` decimal(5,2) DEFAULT NULL,
+  `Mass` decimal(12,2) DEFAULT NULL,
+  `Mstars` decimal(12,2) DEFAULT NULL,
+  PRIMARY KEY (`Snapshot`)
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci;
+/*!40101 SET character_set_client = @saved_cs_client */;
+
+--
+-- Table structure for table `DM1634`
+--
+
+DROP TABLE IF EXISTS `DM1634`;
+/*!40101 SET @saved_cs_client     = @@character_set_client */;
+/*!50503 SET character_set_client = utf8mb4 */;
+CREATE TABLE `DM1634` (
+  `Snapshot` int NOT NULL,
+  `Lookback` decimal(5,2) DEFAULT NULL,
+  `X` decimal(5,2) DEFAULT NULL,
+  `Y` decimal(5,2) DEFAULT NULL,
+  `Z` decimal(5,2) DEFAULT NULL,
+  `R` decimal(5,2) DEFAULT NULL,
+  `Mass` decimal(12,2) DEFAULT NULL,
+  `Mstars` decimal(12,2) DEFAULT NULL,
+  PRIMARY KEY (`Snapshot`)
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci;
+/*!40101 SET character_set_client = @saved_cs_client */;
+
+--
+-- Table structure for table `DM1713`
+--
+
+DROP TABLE IF EXISTS `DM1713`;
+/*!40101 SET @saved_cs_client     = @@character_set_client */;
+/*!50503 SET character_set_client = utf8mb4 */;
+CREATE TABLE `DM1713` (
+  `Snapshot` int NOT NULL,
+  `Lookback` decimal(5,2) DEFAULT NULL,
+  `X` decimal(5,2) DEFAULT NULL,
+  `Y` decimal(5,2) DEFAULT NULL,
+  `Z` decimal(5,2) DEFAULT NULL,
+  `R` decimal(5,2) DEFAULT NULL,
+  `Mass` decimal(12,2) DEFAULT NULL,
+  `Mstars` decimal(12,2) DEFAULT NULL,
+  PRIMARY KEY (`Snapshot`)
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci;
+/*!40101 SET character_set_client = @saved_cs_client */;
+
+--
+-- Table structure for table `DM1715`
+--
+
+DROP TABLE IF EXISTS `DM1715`;
+/*!40101 SET @saved_cs_client     = @@character_set_client */;
+/*!50503 SET character_set_client = utf8mb4 */;
+CREATE TABLE `DM1715` (
+  `Snapshot` int NOT NULL,
+  `Lookback` decimal(5,2) DEFAULT NULL,
+  `X` decimal(5,2) DEFAULT NULL,
+  `Y` decimal(5,2) DEFAULT NULL,
+  `Z` decimal(5,2) DEFAULT NULL,
+  `R` decimal(5,2) DEFAULT NULL,
+  `Mass` decimal(12,2) DEFAULT NULL,
+  `Mstars` decimal(12,2) DEFAULT NULL,
+  PRIMARY KEY (`Snapshot`)
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci;
+/*!40101 SET character_set_client = @saved_cs_client */;
+
+--
+-- Table structure for table `DM1719`
+--
+
+DROP TABLE IF EXISTS `DM1719`;
+/*!40101 SET @saved_cs_client     = @@character_set_client */;
+/*!50503 SET character_set_client = utf8mb4 */;
+CREATE TABLE `DM1719` (
+  `Snapshot` int NOT NULL,
+  `Lookback` decimal(5,2) DEFAULT NULL,
+  `X` decimal(5,2) DEFAULT NULL,
+  `Y` decimal(5,2) DEFAULT NULL,
+  `Z` decimal(5,2) DEFAULT NULL,
+  `R` decimal(5,2) DEFAULT NULL,
+  `Mass` decimal(12,2) DEFAULT NULL,
+  `Mstars` decimal(12,2) DEFAULT NULL,
+  PRIMARY KEY (`Snapshot`)
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci;
+/*!40101 SET character_set_client = @saved_cs_client */;
+
+--
+-- Table structure for table `DM1727`
+--
+
+DROP TABLE IF EXISTS `DM1727`;
+/*!40101 SET @saved_cs_client     = @@character_set_client */;
+/*!50503 SET character_set_client = utf8mb4 */;
+CREATE TABLE `DM1727` (
+  `Snapshot` int NOT NULL,
+  `Lookback` decimal(5,2) DEFAULT NULL,
+  `X` decimal(5,2) DEFAULT NULL,
+  `Y` decimal(5,2) DEFAULT NULL,
+  `Z` decimal(5,2) DEFAULT NULL,
+  `R` decimal(5,2) DEFAULT NULL,
+  `Mass` decimal(12,2) DEFAULT NULL,
+  `Mstars` decimal(12,2) DEFAULT NULL,
+  PRIMARY KEY (`Snapshot`)
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci;
+/*!40101 SET character_set_client = @saved_cs_client */;
+
+--
+-- Table structure for table `DM1740`
+--
+
+DROP TABLE IF EXISTS `DM1740`;
+/*!40101 SET @saved_cs_client     = @@character_set_client */;
+/*!50503 SET character_set_client = utf8mb4 */;
+CREATE TABLE `DM1740` (
+  `Snapshot` int NOT NULL,
+  `Lookback` decimal(5,2) DEFAULT NULL,
+  `X` decimal(5,2) DEFAULT NULL,
+  `Y` decimal(5,2) DEFAULT NULL,
+  `Z` decimal(5,2) DEFAULT NULL,
+  `R` decimal(5,2) DEFAULT NULL,
+  `Mass` decimal(12,2) DEFAULT NULL,
+  `Mstars` decimal(12,2) DEFAULT NULL,
+  PRIMARY KEY (`Snapshot`)
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci;
+/*!40101 SET character_set_client = @saved_cs_client */;
+
+--
+-- Table structure for table `DM1744`
+--
+
+DROP TABLE IF EXISTS `DM1744`;
+/*!40101 SET @saved_cs_client     = @@character_set_client */;
+/*!50503 SET character_set_client = utf8mb4 */;
+CREATE TABLE `DM1744` (
+  `Snapshot` int NOT NULL,
+  `Lookback` decimal(5,2) DEFAULT NULL,
+  `X` decimal(5,2) DEFAULT NULL,
+  `Y` decimal(5,2) DEFAULT NULL,
+  `Z` decimal(5,2) DEFAULT NULL,
+  `R` decimal(5,2) DEFAULT NULL,
+  `Mass` decimal(12,2) DEFAULT NULL,
+  `Mstars` decimal(12,2) DEFAULT NULL,
+  PRIMARY KEY (`Snapshot`)
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci;
+/*!40101 SET character_set_client = @saved_cs_client */;
+
+--
+-- Table structure for table `DM1747`
+--
+
+DROP TABLE IF EXISTS `DM1747`;
+/*!40101 SET @saved_cs_client     = @@character_set_client */;
+/*!50503 SET character_set_client = utf8mb4 */;
+CREATE TABLE `DM1747` (
+  `Snapshot` int NOT NULL,
+  `Lookback` decimal(5,2) DEFAULT NULL,
+  `X` decimal(5,2) DEFAULT NULL,
+  `Y` decimal(5,2) DEFAULT NULL,
+  `Z` decimal(5,2) DEFAULT NULL,
+  `R` decimal(5,2) DEFAULT NULL,
+  `Mass` decimal(12,2) DEFAULT NULL,
+  `Mstars` decimal(12,2) DEFAULT NULL,
+  PRIMARY KEY (`Snapshot`)
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci;
+/*!40101 SET character_set_client = @saved_cs_client */;
+
+--
+-- Table structure for table `DM1749`
+--
+
+DROP TABLE IF EXISTS `DM1749`;
+/*!40101 SET @saved_cs_client     = @@character_set_client */;
+/*!50503 SET character_set_client = utf8mb4 */;
+CREATE TABLE `DM1749` (
+  `Snapshot` int NOT NULL,
+  `Lookback` decimal(5,2) DEFAULT NULL,
+  `X` decimal(5,2) DEFAULT NULL,
+  `Y` decimal(5,2) DEFAULT NULL,
+  `Z` decimal(5,2) DEFAULT NULL,
+  `R` decimal(5,2) DEFAULT NULL,
+  `Mass` decimal(12,2) DEFAULT NULL,
+  `Mstars` decimal(12,2) DEFAULT NULL,
+  PRIMARY KEY (`Snapshot`)
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci;
+/*!40101 SET character_set_client = @saved_cs_client */;
+
+--
+-- Table structure for table `DM1751`
+--
+
+DROP TABLE IF EXISTS `DM1751`;
+/*!40101 SET @saved_cs_client     = @@character_set_client */;
+/*!50503 SET character_set_client = utf8mb4 */;
+CREATE TABLE `DM1751` (
+  `Snapshot` int NOT NULL,
+  `Lookback` decimal(5,2) DEFAULT NULL,
+  `X` decimal(5,2) DEFAULT NULL,
+  `Y` decimal(5,2) DEFAULT NULL,
+  `Z` decimal(5,2) DEFAULT NULL,
+  `R` decimal(5,2) DEFAULT NULL,
+  `Mass` decimal(12,2) DEFAULT NULL,
+  `Mstars` decimal(12,2) DEFAULT NULL,
+  PRIMARY KEY (`Snapshot`)
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci;
+/*!40101 SET character_set_client = @saved_cs_client */;
+
+--
+-- Table structure for table `DM1766`
+--
+
+DROP TABLE IF EXISTS `DM1766`;
+/*!40101 SET @saved_cs_client     = @@character_set_client */;
+/*!50503 SET character_set_client = utf8mb4 */;
+CREATE TABLE `DM1766` (
+  `Snapshot` int NOT NULL,
+  `Lookback` decimal(5,2) DEFAULT NULL,
+  `X` decimal(5,2) DEFAULT NULL,
+  `Y` decimal(5,2) DEFAULT NULL,
+  `Z` decimal(5,2) DEFAULT NULL,
+  `R` decimal(5,2) DEFAULT NULL,
+  `Mass` decimal(12,2) DEFAULT NULL,
+  `Mstars` decimal(12,2) DEFAULT NULL,
+  PRIMARY KEY (`Snapshot`)
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci;
+/*!40101 SET character_set_client = @saved_cs_client */;
+
+--
+-- Table structure for table `DM1784`
+--
+
+DROP TABLE IF EXISTS `DM1784`;
+/*!40101 SET @saved_cs_client     = @@character_set_client */;
+/*!50503 SET character_set_client = utf8mb4 */;
+CREATE TABLE `DM1784` (
+  `Snapshot` int NOT NULL,
+  `Lookback` decimal(5,2) DEFAULT NULL,
+  `X` decimal(5,2) DEFAULT NULL,
+  `Y` decimal(5,2) DEFAULT NULL,
+  `Z` decimal(5,2) DEFAULT NULL,
+  `R` decimal(5,2) DEFAULT NULL,
+  `Mass` decimal(12,2) DEFAULT NULL,
+  `Mstars` decimal(12,2) DEFAULT NULL,
+  PRIMARY KEY (`Snapshot`)
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci;
+/*!40101 SET character_set_client = @saved_cs_client */;
+
+--
+-- Table structure for table `DM1789`
+--
+
+DROP TABLE IF EXISTS `DM1789`;
+/*!40101 SET @saved_cs_client     = @@character_set_client */;
+/*!50503 SET character_set_client = utf8mb4 */;
+CREATE TABLE `DM1789` (
+  `Snapshot` int NOT NULL,
+  `Lookback` decimal(5,2) DEFAULT NULL,
+  `X` decimal(5,2) DEFAULT NULL,
+  `Y` decimal(5,2) DEFAULT NULL,
+  `Z` decimal(5,2) DEFAULT NULL,
+  `R` decimal(5,2) DEFAULT NULL,
+  `Mass` decimal(12,2) DEFAULT NULL,
+  `Mstars` decimal(12,2) DEFAULT NULL,
+  PRIMARY KEY (`Snapshot`)
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci;
+/*!40101 SET character_set_client = @saved_cs_client */;
+
+--
+-- Table structure for table `DM1793`
+--
+
+DROP TABLE IF EXISTS `DM1793`;
+/*!40101 SET @saved_cs_client     = @@character_set_client */;
+/*!50503 SET character_set_client = utf8mb4 */;
+CREATE TABLE `DM1793` (
+  `Snapshot` int NOT NULL,
+  `Lookback` decimal(5,2) DEFAULT NULL,
+  `X` decimal(5,2) DEFAULT NULL,
+  `Y` decimal(5,2) DEFAULT NULL,
+  `Z` decimal(5,2) DEFAULT NULL,
+  `R` decimal(5,2) DEFAULT NULL,
+  `Mass` decimal(12,2) DEFAULT NULL,
+  `Mstars` decimal(12,2) DEFAULT NULL,
+  PRIMARY KEY (`Snapshot`)
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci;
+/*!40101 SET character_set_client = @saved_cs_client */;
+
+--
+-- Table structure for table `DM1795`
+--
+
+DROP TABLE IF EXISTS `DM1795`;
+/*!40101 SET @saved_cs_client     = @@character_set_client */;
+/*!50503 SET character_set_client = utf8mb4 */;
+CREATE TABLE `DM1795` (
+  `Snapshot` int NOT NULL,
+  `Lookback` decimal(5,2) DEFAULT NULL,
+  `X` decimal(5,2) DEFAULT NULL,
+  `Y` decimal(5,2) DEFAULT NULL,
+  `Z` decimal(5,2) DEFAULT NULL,
+  `R` decimal(5,2) DEFAULT NULL,
+  `Mass` decimal(12,2) DEFAULT NULL,
+  `Mstars` decimal(12,2) DEFAULT NULL,
+  PRIMARY KEY (`Snapshot`)
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci;
+/*!40101 SET character_set_client = @saved_cs_client */;
+
+--
+-- Table structure for table `DM1798`
+--
+
+DROP TABLE IF EXISTS `DM1798`;
+/*!40101 SET @saved_cs_client     = @@character_set_client */;
+/*!50503 SET character_set_client = utf8mb4 */;
+CREATE TABLE `DM1798` (
+  `Snapshot` int NOT NULL,
+  `Lookback` decimal(5,2) DEFAULT NULL,
+  `X` decimal(5,2) DEFAULT NULL,
+  `Y` decimal(5,2) DEFAULT NULL,
+  `Z` decimal(5,2) DEFAULT NULL,
+  `R` decimal(5,2) DEFAULT NULL,
+  `Mass` decimal(12,2) DEFAULT NULL,
+  `Mstars` decimal(12,2) DEFAULT NULL,
+  PRIMARY KEY (`Snapshot`)
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci;
+/*!40101 SET character_set_client = @saved_cs_client */;
+
+--
+-- Table structure for table `DM1799`
+--
+
+DROP TABLE IF EXISTS `DM1799`;
+/*!40101 SET @saved_cs_client     = @@character_set_client */;
+/*!50503 SET character_set_client = utf8mb4 */;
+CREATE TABLE `DM1799` (
+  `Snapshot` int NOT NULL,
+  `Lookback` decimal(5,2) DEFAULT NULL,
+  `X` decimal(5,2) DEFAULT NULL,
+  `Y` decimal(5,2) DEFAULT NULL,
+  `Z` decimal(5,2) DEFAULT NULL,
+  `R` decimal(5,2) DEFAULT NULL,
+  `Mass` decimal(12,2) DEFAULT NULL,
+  `Mstars` decimal(12,2) DEFAULT NULL,
+  PRIMARY KEY (`Snapshot`)
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci;
+/*!40101 SET character_set_client = @saved_cs_client */;
+
+--
+-- Table structure for table `DM18`
+--
+
+DROP TABLE IF EXISTS `DM18`;
+/*!40101 SET @saved_cs_client     = @@character_set_client */;
+/*!50503 SET character_set_client = utf8mb4 */;
+CREATE TABLE `DM18` (
+  `Snapshot` int NOT NULL,
+  `Lookback` decimal(5,2) DEFAULT NULL,
+  `X` decimal(5,2) DEFAULT NULL,
+  `Y` decimal(5,2) DEFAULT NULL,
+  `Z` decimal(5,2) DEFAULT NULL,
+  `R` decimal(5,2) DEFAULT NULL,
+  `Mass` decimal(12,2) DEFAULT NULL,
+  `Mstars` decimal(12,2) DEFAULT NULL,
+  PRIMARY KEY (`Snapshot`)
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci;
+/*!40101 SET character_set_client = @saved_cs_client */;
+
+--
+-- Table structure for table `DM1811`
+--
+
+DROP TABLE IF EXISTS `DM1811`;
+/*!40101 SET @saved_cs_client     = @@character_set_client */;
+/*!50503 SET character_set_client = utf8mb4 */;
+CREATE TABLE `DM1811` (
+  `Snapshot` int NOT NULL,
+  `Lookback` decimal(5,2) DEFAULT NULL,
+  `X` decimal(5,2) DEFAULT NULL,
+  `Y` decimal(5,2) DEFAULT NULL,
+  `Z` decimal(5,2) DEFAULT NULL,
+  `R` decimal(5,2) DEFAULT NULL,
+  `Mass` decimal(12,2) DEFAULT NULL,
+  `Mstars` decimal(12,2) DEFAULT NULL,
+  PRIMARY KEY (`Snapshot`)
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci;
+/*!40101 SET character_set_client = @saved_cs_client */;
+
+--
+-- Table structure for table `DM1819`
+--
+
+DROP TABLE IF EXISTS `DM1819`;
+/*!40101 SET @saved_cs_client     = @@character_set_client */;
+/*!50503 SET character_set_client = utf8mb4 */;
+CREATE TABLE `DM1819` (
+  `Snapshot` int NOT NULL,
+  `Lookback` decimal(5,2) DEFAULT NULL,
+  `X` decimal(5,2) DEFAULT NULL,
+  `Y` decimal(5,2) DEFAULT NULL,
+  `Z` decimal(5,2) DEFAULT NULL,
+  `R` decimal(5,2) DEFAULT NULL,
+  `Mass` decimal(12,2) DEFAULT NULL,
+  `Mstars` decimal(12,2) DEFAULT NULL,
+  PRIMARY KEY (`Snapshot`)
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci;
+/*!40101 SET character_set_client = @saved_cs_client */;
+
+--
+-- Table structure for table `DM182`
+--
+
+DROP TABLE IF EXISTS `DM182`;
+/*!40101 SET @saved_cs_client     = @@character_set_client */;
+/*!50503 SET character_set_client = utf8mb4 */;
+CREATE TABLE `DM182` (
+  `Snapshot` int NOT NULL,
+  `Lookback` decimal(5,2) DEFAULT NULL,
+  `X` decimal(5,2) DEFAULT NULL,
+  `Y` decimal(5,2) DEFAULT NULL,
+  `Z` decimal(5,2) DEFAULT NULL,
+  `R` decimal(5,2) DEFAULT NULL,
+  `Mass` decimal(12,2) DEFAULT NULL,
+  `Mstars` decimal(12,2) DEFAULT NULL,
+  PRIMARY KEY (`Snapshot`)
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci;
+/*!40101 SET character_set_client = @saved_cs_client */;
+
+--
+-- Table structure for table `DM1839`
+--
+
+DROP TABLE IF EXISTS `DM1839`;
+/*!40101 SET @saved_cs_client     = @@character_set_client */;
+/*!50503 SET character_set_client = utf8mb4 */;
+CREATE TABLE `DM1839` (
+  `Snapshot` int NOT NULL,
+  `Lookback` decimal(5,2) DEFAULT NULL,
+  `X` decimal(5,2) DEFAULT NULL,
+  `Y` decimal(5,2) DEFAULT NULL,
+  `Z` decimal(5,2) DEFAULT NULL,
+  `R` decimal(5,2) DEFAULT NULL,
+  `Mass` decimal(12,2) DEFAULT NULL,
+  `Mstars` decimal(12,2) DEFAULT NULL,
+  PRIMARY KEY (`Snapshot`)
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci;
+/*!40101 SET character_set_client = @saved_cs_client */;
+
+--
+-- Table structure for table `DM1847`
+--
+
+DROP TABLE IF EXISTS `DM1847`;
+/*!40101 SET @saved_cs_client     = @@character_set_client */;
+/*!50503 SET character_set_client = utf8mb4 */;
+CREATE TABLE `DM1847` (
+  `Snapshot` int NOT NULL,
+  `Lookback` decimal(5,2) DEFAULT NULL,
+  `X` decimal(5,2) DEFAULT NULL,
+  `Y` decimal(5,2) DEFAULT NULL,
+  `Z` decimal(5,2) DEFAULT NULL,
+  `R` decimal(5,2) DEFAULT NULL,
+  `Mass` decimal(12,2) DEFAULT NULL,
+  `Mstars` decimal(12,2) DEFAULT NULL,
+  PRIMARY KEY (`Snapshot`)
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci;
+/*!40101 SET character_set_client = @saved_cs_client */;
+
+--
+-- Table structure for table `DM187`
+--
+
+DROP TABLE IF EXISTS `DM187`;
+/*!40101 SET @saved_cs_client     = @@character_set_client */;
+/*!50503 SET character_set_client = utf8mb4 */;
+CREATE TABLE `DM187` (
+  `Snapshot` int NOT NULL,
+  `Lookback` decimal(5,2) DEFAULT NULL,
+  `X` decimal(5,2) DEFAULT NULL,
+  `Y` decimal(5,2) DEFAULT NULL,
+  `Z` decimal(5,2) DEFAULT NULL,
+  `R` decimal(5,2) DEFAULT NULL,
+  `Mass` decimal(12,2) DEFAULT NULL,
+  `Mstars` decimal(12,2) DEFAULT NULL,
+  PRIMARY KEY (`Snapshot`)
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci;
+/*!40101 SET character_set_client = @saved_cs_client */;
+
+--
+-- Table structure for table `DM20`
+--
+
+DROP TABLE IF EXISTS `DM20`;
+/*!40101 SET @saved_cs_client     = @@character_set_client */;
+/*!50503 SET character_set_client = utf8mb4 */;
+CREATE TABLE `DM20` (
+  `Snapshot` int NOT NULL,
+  `Lookback` decimal(5,2) DEFAULT NULL,
+  `X` decimal(5,2) DEFAULT NULL,
+  `Y` decimal(5,2) DEFAULT NULL,
+  `Z` decimal(5,2) DEFAULT NULL,
+  `R` decimal(5,2) DEFAULT NULL,
+  `Mass` decimal(12,2) DEFAULT NULL,
+  `Mstars` decimal(12,2) DEFAULT NULL,
+  PRIMARY KEY (`Snapshot`)
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci;
+/*!40101 SET character_set_client = @saved_cs_client */;
+
+--
+-- Table structure for table `DM2011`
+--
+
+DROP TABLE IF EXISTS `DM2011`;
+/*!40101 SET @saved_cs_client     = @@character_set_client */;
+/*!50503 SET character_set_client = utf8mb4 */;
+CREATE TABLE `DM2011` (
+  `Snapshot` int NOT NULL,
+  `Lookback` decimal(5,2) DEFAULT NULL,
+  `X` decimal(5,2) DEFAULT NULL,
+  `Y` decimal(5,2) DEFAULT NULL,
+  `Z` decimal(5,2) DEFAULT NULL,
+  `R` decimal(5,2) DEFAULT NULL,
+  `Mass` decimal(12,2) DEFAULT NULL,
+  `Mstars` decimal(12,2) DEFAULT NULL,
+  PRIMARY KEY (`Snapshot`)
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci;
+/*!40101 SET character_set_client = @saved_cs_client */;
+
+--
+-- Table structure for table `DM2014`
+--
+
+DROP TABLE IF EXISTS `DM2014`;
+/*!40101 SET @saved_cs_client     = @@character_set_client */;
+/*!50503 SET character_set_client = utf8mb4 */;
+CREATE TABLE `DM2014` (
+  `Snapshot` int NOT NULL,
+  `Lookback` decimal(5,2) DEFAULT NULL,
+  `X` decimal(5,2) DEFAULT NULL,
+  `Y` decimal(5,2) DEFAULT NULL,
+  `Z` decimal(5,2) DEFAULT NULL,
+  `R` decimal(5,2) DEFAULT NULL,
+  `Mass` decimal(12,2) DEFAULT NULL,
+  `Mstars` decimal(12,2) DEFAULT NULL,
+  PRIMARY KEY (`Snapshot`)
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci;
+/*!40101 SET character_set_client = @saved_cs_client */;
+
+--
+-- Table structure for table `DM2018`
+--
+
+DROP TABLE IF EXISTS `DM2018`;
+/*!40101 SET @saved_cs_client     = @@character_set_client */;
+/*!50503 SET character_set_client = utf8mb4 */;
+CREATE TABLE `DM2018` (
+  `Snapshot` int NOT NULL,
+  `Lookback` decimal(5,2) DEFAULT NULL,
+  `X` decimal(5,2) DEFAULT NULL,
+  `Y` decimal(5,2) DEFAULT NULL,
+  `Z` decimal(5,2) DEFAULT NULL,
+  `R` decimal(5,2) DEFAULT NULL,
+  `Mass` decimal(12,2) DEFAULT NULL,
+  `Mstars` decimal(12,2) DEFAULT NULL,
+  PRIMARY KEY (`Snapshot`)
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci;
+/*!40101 SET character_set_client = @saved_cs_client */;
+
+--
+-- Table structure for table `DM2019`
+--
+
+DROP TABLE IF EXISTS `DM2019`;
+/*!40101 SET @saved_cs_client     = @@character_set_client */;
+/*!50503 SET character_set_client = utf8mb4 */;
+CREATE TABLE `DM2019` (
+  `Snapshot` int NOT NULL,
+  `Lookback` decimal(5,2) DEFAULT NULL,
+  `X` decimal(5,2) DEFAULT NULL,
+  `Y` decimal(5,2) DEFAULT NULL,
+  `Z` decimal(5,2) DEFAULT NULL,
+  `R` decimal(5,2) DEFAULT NULL,
+  `Mass` decimal(12,2) DEFAULT NULL,
+  `Mstars` decimal(12,2) DEFAULT NULL,
+  PRIMARY KEY (`Snapshot`)
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci;
+/*!40101 SET character_set_client = @saved_cs_client */;
+
+--
+-- Table structure for table `DM2027`
+--
+
+DROP TABLE IF EXISTS `DM2027`;
+/*!40101 SET @saved_cs_client     = @@character_set_client */;
+/*!50503 SET character_set_client = utf8mb4 */;
+CREATE TABLE `DM2027` (
+  `Snapshot` int NOT NULL,
+  `Lookback` decimal(5,2) DEFAULT NULL,
+  `X` decimal(5,2) DEFAULT NULL,
+  `Y` decimal(5,2) DEFAULT NULL,
+  `Z` decimal(5,2) DEFAULT NULL,
+  `R` decimal(5,2) DEFAULT NULL,
+  `Mass` decimal(12,2) DEFAULT NULL,
+  `Mstars` decimal(12,2) DEFAULT NULL,
+  PRIMARY KEY (`Snapshot`)
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci;
+/*!40101 SET character_set_client = @saved_cs_client */;
+
+--
+-- Table structure for table `DM2031`
+--
+
+DROP TABLE IF EXISTS `DM2031`;
+/*!40101 SET @saved_cs_client     = @@character_set_client */;
+/*!50503 SET character_set_client = utf8mb4 */;
+CREATE TABLE `DM2031` (
+  `Snapshot` int NOT NULL,
+  `Lookback` decimal(5,2) DEFAULT NULL,
+  `X` decimal(5,2) DEFAULT NULL,
+  `Y` decimal(5,2) DEFAULT NULL,
+  `Z` decimal(5,2) DEFAULT NULL,
+  `R` decimal(5,2) DEFAULT NULL,
+  `Mass` decimal(12,2) DEFAULT NULL,
+  `Mstars` decimal(12,2) DEFAULT NULL,
+  PRIMARY KEY (`Snapshot`)
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci;
+/*!40101 SET character_set_client = @saved_cs_client */;
+
+--
+-- Table structure for table `DM2044`
+--
+
+DROP TABLE IF EXISTS `DM2044`;
+/*!40101 SET @saved_cs_client     = @@character_set_client */;
+/*!50503 SET character_set_client = utf8mb4 */;
+CREATE TABLE `DM2044` (
+  `Snapshot` int NOT NULL,
+  `Lookback` decimal(5,2) DEFAULT NULL,
+  `X` decimal(5,2) DEFAULT NULL,
+  `Y` decimal(5,2) DEFAULT NULL,
+  `Z` decimal(5,2) DEFAULT NULL,
+  `R` decimal(5,2) DEFAULT NULL,
+  `Mass` decimal(12,2) DEFAULT NULL,
+  `Mstars` decimal(12,2) DEFAULT NULL,
+  PRIMARY KEY (`Snapshot`)
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci;
+/*!40101 SET character_set_client = @saved_cs_client */;
+
+--
+-- Table structure for table `DM2051`
+--
+
+DROP TABLE IF EXISTS `DM2051`;
+/*!40101 SET @saved_cs_client     = @@character_set_client */;
+/*!50503 SET character_set_client = utf8mb4 */;
+CREATE TABLE `DM2051` (
+  `Snapshot` int NOT NULL,
+  `Lookback` decimal(5,2) DEFAULT NULL,
+  `X` decimal(5,2) DEFAULT NULL,
+  `Y` decimal(5,2) DEFAULT NULL,
+  `Z` decimal(5,2) DEFAULT NULL,
+  `R` decimal(5,2) DEFAULT NULL,
+  `Mass` decimal(12,2) DEFAULT NULL,
+  `Mstars` decimal(12,2) DEFAULT NULL,
+  PRIMARY KEY (`Snapshot`)
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci;
+/*!40101 SET character_set_client = @saved_cs_client */;
+
+--
+-- Table structure for table `DM2052`
+--
+
+DROP TABLE IF EXISTS `DM2052`;
+/*!40101 SET @saved_cs_client     = @@character_set_client */;
+/*!50503 SET character_set_client = utf8mb4 */;
+CREATE TABLE `DM2052` (
+  `Snapshot` int NOT NULL,
+  `Lookback` decimal(5,2) DEFAULT NULL,
+  `X` decimal(5,2) DEFAULT NULL,
+  `Y` decimal(5,2) DEFAULT NULL,
+  `Z` decimal(5,2) DEFAULT NULL,
+  `R` decimal(5,2) DEFAULT NULL,
+  `Mass` decimal(12,2) DEFAULT NULL,
+  `Mstars` decimal(12,2) DEFAULT NULL,
+  PRIMARY KEY (`Snapshot`)
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci;
+/*!40101 SET character_set_client = @saved_cs_client */;
+
+--
+-- Table structure for table `DM2058`
+--
+
+DROP TABLE IF EXISTS `DM2058`;
+/*!40101 SET @saved_cs_client     = @@character_set_client */;
+/*!50503 SET character_set_client = utf8mb4 */;
+CREATE TABLE `DM2058` (
+  `Snapshot` int NOT NULL,
+  `Lookback` decimal(5,2) DEFAULT NULL,
+  `X` decimal(5,2) DEFAULT NULL,
+  `Y` decimal(5,2) DEFAULT NULL,
+  `Z` decimal(5,2) DEFAULT NULL,
+  `R` decimal(5,2) DEFAULT NULL,
+  `Mass` decimal(12,2) DEFAULT NULL,
+  `Mstars` decimal(12,2) DEFAULT NULL,
+  PRIMARY KEY (`Snapshot`)
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci;
+/*!40101 SET character_set_client = @saved_cs_client */;
+
+--
+-- Table structure for table `DM2059`
+--
+
+DROP TABLE IF EXISTS `DM2059`;
+/*!40101 SET @saved_cs_client     = @@character_set_client */;
+/*!50503 SET character_set_client = utf8mb4 */;
+CREATE TABLE `DM2059` (
+  `Snapshot` int NOT NULL,
+  `Lookback` decimal(5,2) DEFAULT NULL,
+  `X` decimal(5,2) DEFAULT NULL,
+  `Y` decimal(5,2) DEFAULT NULL,
+  `Z` decimal(5,2) DEFAULT NULL,
+  `R` decimal(5,2) DEFAULT NULL,
+  `Mass` decimal(12,2) DEFAULT NULL,
+  `Mstars` decimal(12,2) DEFAULT NULL,
+  PRIMARY KEY (`Snapshot`)
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci;
+/*!40101 SET character_set_client = @saved_cs_client */;
+
+--
+-- Table structure for table `DM2066`
+--
+
+DROP TABLE IF EXISTS `DM2066`;
+/*!40101 SET @saved_cs_client     = @@character_set_client */;
+/*!50503 SET character_set_client = utf8mb4 */;
+CREATE TABLE `DM2066` (
+  `Snapshot` int NOT NULL,
+  `Lookback` decimal(5,2) DEFAULT NULL,
+  `X` decimal(5,2) DEFAULT NULL,
+  `Y` decimal(5,2) DEFAULT NULL,
+  `Z` decimal(5,2) DEFAULT NULL,
+  `R` decimal(5,2) DEFAULT NULL,
+  `Mass` decimal(12,2) DEFAULT NULL,
+  `Mstars` decimal(12,2) DEFAULT NULL,
+  PRIMARY KEY (`Snapshot`)
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci;
+/*!40101 SET character_set_client = @saved_cs_client */;
+
+--
+-- Table structure for table `DM2070`
+--
+
+DROP TABLE IF EXISTS `DM2070`;
+/*!40101 SET @saved_cs_client     = @@character_set_client */;
+/*!50503 SET character_set_client = utf8mb4 */;
+CREATE TABLE `DM2070` (
+  `Snapshot` int NOT NULL,
+  `Lookback` decimal(5,2) DEFAULT NULL,
+  `X` decimal(5,2) DEFAULT NULL,
+  `Y` decimal(5,2) DEFAULT NULL,
+  `Z` decimal(5,2) DEFAULT NULL,
+  `R` decimal(5,2) DEFAULT NULL,
+  `Mass` decimal(12,2) DEFAULT NULL,
+  `Mstars` decimal(12,2) DEFAULT NULL,
+  PRIMARY KEY (`Snapshot`)
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci;
+/*!40101 SET character_set_client = @saved_cs_client */;
+
+--
+-- Table structure for table `DM2073`
+--
+
+DROP TABLE IF EXISTS `DM2073`;
+/*!40101 SET @saved_cs_client     = @@character_set_client */;
+/*!50503 SET character_set_client = utf8mb4 */;
+CREATE TABLE `DM2073` (
+  `Snapshot` int NOT NULL,
+  `Lookback` decimal(5,2) DEFAULT NULL,
+  `X` decimal(5,2) DEFAULT NULL,
+  `Y` decimal(5,2) DEFAULT NULL,
+  `Z` decimal(5,2) DEFAULT NULL,
+  `R` decimal(5,2) DEFAULT NULL,
+  `Mass` decimal(12,2) DEFAULT NULL,
+  `Mstars` decimal(12,2) DEFAULT NULL,
+  PRIMARY KEY (`Snapshot`)
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci;
+/*!40101 SET character_set_client = @saved_cs_client */;
+
+--
+-- Table structure for table `DM2091`
+--
+
+DROP TABLE IF EXISTS `DM2091`;
+/*!40101 SET @saved_cs_client     = @@character_set_client */;
+/*!50503 SET character_set_client = utf8mb4 */;
+CREATE TABLE `DM2091` (
+  `Snapshot` int NOT NULL,
+  `Lookback` decimal(5,2) DEFAULT NULL,
+  `X` decimal(5,2) DEFAULT NULL,
+  `Y` decimal(5,2) DEFAULT NULL,
+  `Z` decimal(5,2) DEFAULT NULL,
+  `R` decimal(5,2) DEFAULT NULL,
+  `Mass` decimal(12,2) DEFAULT NULL,
+  `Mstars` decimal(12,2) DEFAULT NULL,
+  PRIMARY KEY (`Snapshot`)
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci;
+/*!40101 SET character_set_client = @saved_cs_client */;
+
+--
+-- Table structure for table `DM2095`
+--
+
+DROP TABLE IF EXISTS `DM2095`;
+/*!40101 SET @saved_cs_client     = @@character_set_client */;
+/*!50503 SET character_set_client = utf8mb4 */;
+CREATE TABLE `DM2095` (
+  `Snapshot` int NOT NULL,
+  `Lookback` decimal(5,2) DEFAULT NULL,
+  `X` decimal(5,2) DEFAULT NULL,
+  `Y` decimal(5,2) DEFAULT NULL,
+  `Z` decimal(5,2) DEFAULT NULL,
+  `R` decimal(5,2) DEFAULT NULL,
+  `Mass` decimal(12,2) DEFAULT NULL,
+  `Mstars` decimal(12,2) DEFAULT NULL,
+  PRIMARY KEY (`Snapshot`)
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci;
+/*!40101 SET character_set_client = @saved_cs_client */;
+
+--
+-- Table structure for table `DM2100`
+--
+
+DROP TABLE IF EXISTS `DM2100`;
+/*!40101 SET @saved_cs_client     = @@character_set_client */;
+/*!50503 SET character_set_client = utf8mb4 */;
+CREATE TABLE `DM2100` (
+  `Snapshot` int NOT NULL,
+  `Lookback` decimal(5,2) DEFAULT NULL,
+  `X` decimal(5,2) DEFAULT NULL,
+  `Y` decimal(5,2) DEFAULT NULL,
+  `Z` decimal(5,2) DEFAULT NULL,
+  `R` decimal(5,2) DEFAULT NULL,
+  `Mass` decimal(12,2) DEFAULT NULL,
+  `Mstars` decimal(12,2) DEFAULT NULL,
+  PRIMARY KEY (`Snapshot`)
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci;
+/*!40101 SET character_set_client = @saved_cs_client */;
+
+--
+-- Table structure for table `DM2113`
+--
+
+DROP TABLE IF EXISTS `DM2113`;
+/*!40101 SET @saved_cs_client     = @@character_set_client */;
+/*!50503 SET character_set_client = utf8mb4 */;
+CREATE TABLE `DM2113` (
+  `Snapshot` int NOT NULL,
+  `Lookback` decimal(5,2) DEFAULT NULL,
+  `X` decimal(5,2) DEFAULT NULL,
+  `Y` decimal(5,2) DEFAULT NULL,
+  `Z` decimal(5,2) DEFAULT NULL,
+  `R` decimal(5,2) DEFAULT NULL,
+  `Mass` decimal(12,2) DEFAULT NULL,
+  `Mstars` decimal(12,2) DEFAULT NULL,
+  PRIMARY KEY (`Snapshot`)
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci;
+/*!40101 SET character_set_client = @saved_cs_client */;
+
+--
+-- Table structure for table `DM2116`
+--
+
+DROP TABLE IF EXISTS `DM2116`;
+/*!40101 SET @saved_cs_client     = @@character_set_client */;
+/*!50503 SET character_set_client = utf8mb4 */;
+CREATE TABLE `DM2116` (
+  `Snapshot` int NOT NULL,
+  `Lookback` decimal(5,2) DEFAULT NULL,
+  `X` decimal(5,2) DEFAULT NULL,
+  `Y` decimal(5,2) DEFAULT NULL,
+  `Z` decimal(5,2) DEFAULT NULL,
+  `R` decimal(5,2) DEFAULT NULL,
+  `Mass` decimal(12,2) DEFAULT NULL,
+  `Mstars` decimal(12,2) DEFAULT NULL,
+  PRIMARY KEY (`Snapshot`)
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci;
+/*!40101 SET character_set_client = @saved_cs_client */;
+
+--
+-- Table structure for table `DM2133`
+--
+
+DROP TABLE IF EXISTS `DM2133`;
+/*!40101 SET @saved_cs_client     = @@character_set_client */;
+/*!50503 SET character_set_client = utf8mb4 */;
+CREATE TABLE `DM2133` (
+  `Snapshot` int NOT NULL,
+  `Lookback` decimal(5,2) DEFAULT NULL,
+  `X` decimal(5,2) DEFAULT NULL,
+  `Y` decimal(5,2) DEFAULT NULL,
+  `Z` decimal(5,2) DEFAULT NULL,
+  `R` decimal(5,2) DEFAULT NULL,
+  `Mass` decimal(12,2) DEFAULT NULL,
+  `Mstars` decimal(12,2) DEFAULT NULL,
+  PRIMARY KEY (`Snapshot`)
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci;
+/*!40101 SET character_set_client = @saved_cs_client */;
+
+--
+-- Table structure for table `DM2134`
+--
+
+DROP TABLE IF EXISTS `DM2134`;
+/*!40101 SET @saved_cs_client     = @@character_set_client */;
+/*!50503 SET character_set_client = utf8mb4 */;
+CREATE TABLE `DM2134` (
+  `Snapshot` int NOT NULL,
+  `Lookback` decimal(5,2) DEFAULT NULL,
+  `X` decimal(5,2) DEFAULT NULL,
+  `Y` decimal(5,2) DEFAULT NULL,
+  `Z` decimal(5,2) DEFAULT NULL,
+  `R` decimal(5,2) DEFAULT NULL,
+  `Mass` decimal(12,2) DEFAULT NULL,
+  `Mstars` decimal(12,2) DEFAULT NULL,
+  PRIMARY KEY (`Snapshot`)
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci;
+/*!40101 SET character_set_client = @saved_cs_client */;
+
+--
+-- Table structure for table `DM2143`
+--
+
+DROP TABLE IF EXISTS `DM2143`;
+/*!40101 SET @saved_cs_client     = @@character_set_client */;
+/*!50503 SET character_set_client = utf8mb4 */;
+CREATE TABLE `DM2143` (
+  `Snapshot` int NOT NULL,
+  `Lookback` decimal(5,2) DEFAULT NULL,
+  `X` decimal(5,2) DEFAULT NULL,
+  `Y` decimal(5,2) DEFAULT NULL,
+  `Z` decimal(5,2) DEFAULT NULL,
+  `R` decimal(5,2) DEFAULT NULL,
+  `Mass` decimal(12,2) DEFAULT NULL,
+  `Mstars` decimal(12,2) DEFAULT NULL,
+  PRIMARY KEY (`Snapshot`)
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci;
+/*!40101 SET character_set_client = @saved_cs_client */;
+
+--
+-- Table structure for table `DM2144`
+--
+
+DROP TABLE IF EXISTS `DM2144`;
+/*!40101 SET @saved_cs_client     = @@character_set_client */;
+/*!50503 SET character_set_client = utf8mb4 */;
+CREATE TABLE `DM2144` (
+  `Snapshot` int NOT NULL,
+  `Lookback` decimal(5,2) DEFAULT NULL,
+  `X` decimal(5,2) DEFAULT NULL,
+  `Y` decimal(5,2) DEFAULT NULL,
+  `Z` decimal(5,2) DEFAULT NULL,
+  `R` decimal(5,2) DEFAULT NULL,
+  `Mass` decimal(12,2) DEFAULT NULL,
+  `Mstars` decimal(12,2) DEFAULT NULL,
+  PRIMARY KEY (`Snapshot`)
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci;
+/*!40101 SET character_set_client = @saved_cs_client */;
+
+--
+-- Table structure for table `DM2189`
+--
+
+DROP TABLE IF EXISTS `DM2189`;
+/*!40101 SET @saved_cs_client     = @@character_set_client */;
+/*!50503 SET character_set_client = utf8mb4 */;
+CREATE TABLE `DM2189` (
+  `Snapshot` int NOT NULL,
+  `Lookback` decimal(5,2) DEFAULT NULL,
+  `X` decimal(5,2) DEFAULT NULL,
+  `Y` decimal(5,2) DEFAULT NULL,
+  `Z` decimal(5,2) DEFAULT NULL,
+  `R` decimal(5,2) DEFAULT NULL,
+  `Mass` decimal(12,2) DEFAULT NULL,
+  `Mstars` decimal(12,2) DEFAULT NULL,
+  PRIMARY KEY (`Snapshot`)
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci;
+/*!40101 SET character_set_client = @saved_cs_client */;
+
+--
+-- Table structure for table `DM2191`
+--
+
+DROP TABLE IF EXISTS `DM2191`;
+/*!40101 SET @saved_cs_client     = @@character_set_client */;
+/*!50503 SET character_set_client = utf8mb4 */;
+CREATE TABLE `DM2191` (
+  `Snapshot` int NOT NULL,
+  `Lookback` decimal(5,2) DEFAULT NULL,
+  `X` decimal(5,2) DEFAULT NULL,
+  `Y` decimal(5,2) DEFAULT NULL,
+  `Z` decimal(5,2) DEFAULT NULL,
+  `R` decimal(5,2) DEFAULT NULL,
+  `Mass` decimal(12,2) DEFAULT NULL,
+  `Mstars` decimal(12,2) DEFAULT NULL,
+  PRIMARY KEY (`Snapshot`)
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci;
+/*!40101 SET character_set_client = @saved_cs_client */;
+
+--
+-- Table structure for table `DM2198`
+--
+
+DROP TABLE IF EXISTS `DM2198`;
+/*!40101 SET @saved_cs_client     = @@character_set_client */;
+/*!50503 SET character_set_client = utf8mb4 */;
+CREATE TABLE `DM2198` (
+  `Snapshot` int NOT NULL,
+  `Lookback` decimal(5,2) DEFAULT NULL,
+  `X` decimal(5,2) DEFAULT NULL,
+  `Y` decimal(5,2) DEFAULT NULL,
+  `Z` decimal(5,2) DEFAULT NULL,
+  `R` decimal(5,2) DEFAULT NULL,
+  `Mass` decimal(12,2) DEFAULT NULL,
+  `Mstars` decimal(12,2) DEFAULT NULL,
+  PRIMARY KEY (`Snapshot`)
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci;
+/*!40101 SET character_set_client = @saved_cs_client */;
+
+--
+-- Table structure for table `DM2200`
+--
+
+DROP TABLE IF EXISTS `DM2200`;
+/*!40101 SET @saved_cs_client     = @@character_set_client */;
+/*!50503 SET character_set_client = utf8mb4 */;
+CREATE TABLE `DM2200` (
+  `Snapshot` int NOT NULL,
+  `Lookback` decimal(5,2) DEFAULT NULL,
+  `X` decimal(5,2) DEFAULT NULL,
+  `Y` decimal(5,2) DEFAULT NULL,
+  `Z` decimal(5,2) DEFAULT NULL,
+  `R` decimal(5,2) DEFAULT NULL,
+  `Mass` decimal(12,2) DEFAULT NULL,
+  `Mstars` decimal(12,2) DEFAULT NULL,
+  PRIMARY KEY (`Snapshot`)
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci;
+/*!40101 SET character_set_client = @saved_cs_client */;
+
+--
+-- Table structure for table `DM2201`
+--
+
+DROP TABLE IF EXISTS `DM2201`;
+/*!40101 SET @saved_cs_client     = @@character_set_client */;
+/*!50503 SET character_set_client = utf8mb4 */;
+CREATE TABLE `DM2201` (
+  `Snapshot` int NOT NULL,
+  `Lookback` decimal(5,2) DEFAULT NULL,
+  `X` decimal(5,2) DEFAULT NULL,
+  `Y` decimal(5,2) DEFAULT NULL,
+  `Z` decimal(5,2) DEFAULT NULL,
+  `R` decimal(5,2) DEFAULT NULL,
+  `Mass` decimal(12,2) DEFAULT NULL,
+  `Mstars` decimal(12,2) DEFAULT NULL,
+  PRIMARY KEY (`Snapshot`)
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci;
+/*!40101 SET character_set_client = @saved_cs_client */;
+
+--
+-- Table structure for table `DM2212`
+--
+
+DROP TABLE IF EXISTS `DM2212`;
+/*!40101 SET @saved_cs_client     = @@character_set_client */;
+/*!50503 SET character_set_client = utf8mb4 */;
+CREATE TABLE `DM2212` (
+  `Snapshot` int NOT NULL,
+  `Lookback` decimal(5,2) DEFAULT NULL,
+  `X` decimal(5,2) DEFAULT NULL,
+  `Y` decimal(5,2) DEFAULT NULL,
+  `Z` decimal(5,2) DEFAULT NULL,
+  `R` decimal(5,2) DEFAULT NULL,
+  `Mass` decimal(12,2) DEFAULT NULL,
+  `Mstars` decimal(12,2) DEFAULT NULL,
+  PRIMARY KEY (`Snapshot`)
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci;
+/*!40101 SET character_set_client = @saved_cs_client */;
+
+--
+-- Table structure for table `DM2227`
+--
+
+DROP TABLE IF EXISTS `DM2227`;
+/*!40101 SET @saved_cs_client     = @@character_set_client */;
+/*!50503 SET character_set_client = utf8mb4 */;
+CREATE TABLE `DM2227` (
+  `Snapshot` int NOT NULL,
+  `Lookback` decimal(5,2) DEFAULT NULL,
+  `X` decimal(5,2) DEFAULT NULL,
+  `Y` decimal(5,2) DEFAULT NULL,
+  `Z` decimal(5,2) DEFAULT NULL,
+  `R` decimal(5,2) DEFAULT NULL,
+  `Mass` decimal(12,2) DEFAULT NULL,
+  `Mstars` decimal(12,2) DEFAULT NULL,
+  PRIMARY KEY (`Snapshot`)
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci;
+/*!40101 SET character_set_client = @saved_cs_client */;
+
+--
+-- Table structure for table `DM2238`
+--
+
+DROP TABLE IF EXISTS `DM2238`;
+/*!40101 SET @saved_cs_client     = @@character_set_client */;
+/*!50503 SET character_set_client = utf8mb4 */;
+CREATE TABLE `DM2238` (
+  `Snapshot` int NOT NULL,
+  `Lookback` decimal(5,2) DEFAULT NULL,
+  `X` decimal(5,2) DEFAULT NULL,
+  `Y` decimal(5,2) DEFAULT NULL,
+  `Z` decimal(5,2) DEFAULT NULL,
+  `R` decimal(5,2) DEFAULT NULL,
+  `Mass` decimal(12,2) DEFAULT NULL,
+  `Mstars` decimal(12,2) DEFAULT NULL,
+  PRIMARY KEY (`Snapshot`)
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci;
+/*!40101 SET character_set_client = @saved_cs_client */;
+
+--
+-- Table structure for table `DM2249`
+--
+
+DROP TABLE IF EXISTS `DM2249`;
+/*!40101 SET @saved_cs_client     = @@character_set_client */;
+/*!50503 SET character_set_client = utf8mb4 */;
+CREATE TABLE `DM2249` (
+  `Snapshot` int NOT NULL,
+  `Lookback` decimal(5,2) DEFAULT NULL,
+  `X` decimal(5,2) DEFAULT NULL,
+  `Y` decimal(5,2) DEFAULT NULL,
+  `Z` decimal(5,2) DEFAULT NULL,
+  `R` decimal(5,2) DEFAULT NULL,
+  `Mass` decimal(12,2) DEFAULT NULL,
+  `Mstars` decimal(12,2) DEFAULT NULL,
+  PRIMARY KEY (`Snapshot`)
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci;
+/*!40101 SET character_set_client = @saved_cs_client */;
+
+--
+-- Table structure for table `DM2254`
+--
+
+DROP TABLE IF EXISTS `DM2254`;
+/*!40101 SET @saved_cs_client     = @@character_set_client */;
+/*!50503 SET character_set_client = utf8mb4 */;
+CREATE TABLE `DM2254` (
+  `Snapshot` int NOT NULL,
+  `Lookback` decimal(5,2) DEFAULT NULL,
+  `X` decimal(5,2) DEFAULT NULL,
+  `Y` decimal(5,2) DEFAULT NULL,
+  `Z` decimal(5,2) DEFAULT NULL,
+  `R` decimal(5,2) DEFAULT NULL,
+  `Mass` decimal(12,2) DEFAULT NULL,
+  `Mstars` decimal(12,2) DEFAULT NULL,
+  PRIMARY KEY (`Snapshot`)
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci;
+/*!40101 SET character_set_client = @saved_cs_client */;
+
+--
+-- Table structure for table `DM2259`
+--
+
+DROP TABLE IF EXISTS `DM2259`;
+/*!40101 SET @saved_cs_client     = @@character_set_client */;
+/*!50503 SET character_set_client = utf8mb4 */;
+CREATE TABLE `DM2259` (
+  `Snapshot` int NOT NULL,
+  `Lookback` decimal(5,2) DEFAULT NULL,
+  `X` decimal(5,2) DEFAULT NULL,
+  `Y` decimal(5,2) DEFAULT NULL,
+  `Z` decimal(5,2) DEFAULT NULL,
+  `R` decimal(5,2) DEFAULT NULL,
+  `Mass` decimal(12,2) DEFAULT NULL,
+  `Mstars` decimal(12,2) DEFAULT NULL,
+  PRIMARY KEY (`Snapshot`)
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci;
+/*!40101 SET character_set_client = @saved_cs_client */;
+
+--
+-- Table structure for table `DM2263`
+--
+
+DROP TABLE IF EXISTS `DM2263`;
+/*!40101 SET @saved_cs_client     = @@character_set_client */;
+/*!50503 SET character_set_client = utf8mb4 */;
+CREATE TABLE `DM2263` (
+  `Snapshot` int NOT NULL,
+  `Lookback` decimal(5,2) DEFAULT NULL,
+  `X` decimal(5,2) DEFAULT NULL,
+  `Y` decimal(5,2) DEFAULT NULL,
+  `Z` decimal(5,2) DEFAULT NULL,
+  `R` decimal(5,2) DEFAULT NULL,
+  `Mass` decimal(12,2) DEFAULT NULL,
+  `Mstars` decimal(12,2) DEFAULT NULL,
+  PRIMARY KEY (`Snapshot`)
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci;
+/*!40101 SET character_set_client = @saved_cs_client */;
+
+--
+-- Table structure for table `DM2280`
+--
+
+DROP TABLE IF EXISTS `DM2280`;
+/*!40101 SET @saved_cs_client     = @@character_set_client */;
+/*!50503 SET character_set_client = utf8mb4 */;
+CREATE TABLE `DM2280` (
+  `Snapshot` int NOT NULL,
+  `Lookback` decimal(5,2) DEFAULT NULL,
+  `X` decimal(5,2) DEFAULT NULL,
+  `Y` decimal(5,2) DEFAULT NULL,
+  `Z` decimal(5,2) DEFAULT NULL,
+  `R` decimal(5,2) DEFAULT NULL,
+  `Mass` decimal(12,2) DEFAULT NULL,
+  `Mstars` decimal(12,2) DEFAULT NULL,
+  PRIMARY KEY (`Snapshot`)
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci;
+/*!40101 SET character_set_client = @saved_cs_client */;
+
+--
+-- Table structure for table `DM2289`
+--
+
+DROP TABLE IF EXISTS `DM2289`;
+/*!40101 SET @saved_cs_client     = @@character_set_client */;
+/*!50503 SET character_set_client = utf8mb4 */;
+CREATE TABLE `DM2289` (
+  `Snapshot` int NOT NULL,
+  `Lookback` decimal(5,2) DEFAULT NULL,
+  `X` decimal(5,2) DEFAULT NULL,
+  `Y` decimal(5,2) DEFAULT NULL,
+  `Z` decimal(5,2) DEFAULT NULL,
+  `R` decimal(5,2) DEFAULT NULL,
+  `Mass` decimal(12,2) DEFAULT NULL,
+  `Mstars` decimal(12,2) DEFAULT NULL,
+  PRIMARY KEY (`Snapshot`)
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci;
+/*!40101 SET character_set_client = @saved_cs_client */;
+
+--
+-- Table structure for table `DM2348`
+--
+
+DROP TABLE IF EXISTS `DM2348`;
+/*!40101 SET @saved_cs_client     = @@character_set_client */;
+/*!50503 SET character_set_client = utf8mb4 */;
+CREATE TABLE `DM2348` (
+  `Snapshot` int NOT NULL,
+  `Lookback` decimal(5,2) DEFAULT NULL,
+  `X` decimal(5,2) DEFAULT NULL,
+  `Y` decimal(5,2) DEFAULT NULL,
+  `Z` decimal(5,2) DEFAULT NULL,
+  `R` decimal(5,2) DEFAULT NULL,
+  `Mass` decimal(12,2) DEFAULT NULL,
+  `Mstars` decimal(12,2) DEFAULT NULL,
+  PRIMARY KEY (`Snapshot`)
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci;
+/*!40101 SET character_set_client = @saved_cs_client */;
+
+--
+-- Table structure for table `DM2350`
+--
+
+DROP TABLE IF EXISTS `DM2350`;
+/*!40101 SET @saved_cs_client     = @@character_set_client */;
+/*!50503 SET character_set_client = utf8mb4 */;
+CREATE TABLE `DM2350` (
+  `Snapshot` int NOT NULL,
+  `Lookback` decimal(5,2) DEFAULT NULL,
+  `X` decimal(5,2) DEFAULT NULL,
+  `Y` decimal(5,2) DEFAULT NULL,
+  `Z` decimal(5,2) DEFAULT NULL,
+  `R` decimal(5,2) DEFAULT NULL,
+  `Mass` decimal(12,2) DEFAULT NULL,
+  `Mstars` decimal(12,2) DEFAULT NULL,
+  PRIMARY KEY (`Snapshot`)
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci;
+/*!40101 SET character_set_client = @saved_cs_client */;
+
+--
+-- Table structure for table `DM2357`
+--
+
+DROP TABLE IF EXISTS `DM2357`;
+/*!40101 SET @saved_cs_client     = @@character_set_client */;
+/*!50503 SET character_set_client = utf8mb4 */;
+CREATE TABLE `DM2357` (
+  `Snapshot` int NOT NULL,
+  `Lookback` decimal(5,2) DEFAULT NULL,
+  `X` decimal(5,2) DEFAULT NULL,
+  `Y` decimal(5,2) DEFAULT NULL,
+  `Z` decimal(5,2) DEFAULT NULL,
+  `R` decimal(5,2) DEFAULT NULL,
+  `Mass` decimal(12,2) DEFAULT NULL,
+  `Mstars` decimal(12,2) DEFAULT NULL,
+  PRIMARY KEY (`Snapshot`)
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci;
+/*!40101 SET character_set_client = @saved_cs_client */;
+
+--
+-- Table structure for table `DM2369`
+--
+
+DROP TABLE IF EXISTS `DM2369`;
+/*!40101 SET @saved_cs_client     = @@character_set_client */;
+/*!50503 SET character_set_client = utf8mb4 */;
+CREATE TABLE `DM2369` (
+  `Snapshot` int NOT NULL,
+  `Lookback` decimal(5,2) DEFAULT NULL,
+  `X` decimal(5,2) DEFAULT NULL,
+  `Y` decimal(5,2) DEFAULT NULL,
+  `Z` decimal(5,2) DEFAULT NULL,
+  `R` decimal(5,2) DEFAULT NULL,
+  `Mass` decimal(12,2) DEFAULT NULL,
+  `Mstars` decimal(12,2) DEFAULT NULL,
+  PRIMARY KEY (`Snapshot`)
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci;
+/*!40101 SET character_set_client = @saved_cs_client */;
+
+--
+-- Table structure for table `DM2375`
+--
+
+DROP TABLE IF EXISTS `DM2375`;
+/*!40101 SET @saved_cs_client     = @@character_set_client */;
+/*!50503 SET character_set_client = utf8mb4 */;
+CREATE TABLE `DM2375` (
+  `Snapshot` int NOT NULL,
+  `Lookback` decimal(5,2) DEFAULT NULL,
+  `X` decimal(5,2) DEFAULT NULL,
+  `Y` decimal(5,2) DEFAULT NULL,
+  `Z` decimal(5,2) DEFAULT NULL,
+  `R` decimal(5,2) DEFAULT NULL,
+  `Mass` decimal(12,2) DEFAULT NULL,
+  `Mstars` decimal(12,2) DEFAULT NULL,
+  PRIMARY KEY (`Snapshot`)
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci;
+/*!40101 SET character_set_client = @saved_cs_client */;
+
+--
+-- Table structure for table `DM2382`
+--
+
+DROP TABLE IF EXISTS `DM2382`;
+/*!40101 SET @saved_cs_client     = @@character_set_client */;
+/*!50503 SET character_set_client = utf8mb4 */;
+CREATE TABLE `DM2382` (
+  `Snapshot` int NOT NULL,
+  `Lookback` decimal(5,2) DEFAULT NULL,
+  `X` decimal(5,2) DEFAULT NULL,
+  `Y` decimal(5,2) DEFAULT NULL,
+  `Z` decimal(5,2) DEFAULT NULL,
+  `R` decimal(5,2) DEFAULT NULL,
+  `Mass` decimal(12,2) DEFAULT NULL,
+  `Mstars` decimal(12,2) DEFAULT NULL,
+  PRIMARY KEY (`Snapshot`)
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci;
+/*!40101 SET character_set_client = @saved_cs_client */;
+
+--
+-- Table structure for table `DM2393`
+--
+
+DROP TABLE IF EXISTS `DM2393`;
+/*!40101 SET @saved_cs_client     = @@character_set_client */;
+/*!50503 SET character_set_client = utf8mb4 */;
+CREATE TABLE `DM2393` (
+  `Snapshot` int NOT NULL,
+  `Lookback` decimal(5,2) DEFAULT NULL,
+  `X` decimal(5,2) DEFAULT NULL,
+  `Y` decimal(5,2) DEFAULT NULL,
+  `Z` decimal(5,2) DEFAULT NULL,
+  `R` decimal(5,2) DEFAULT NULL,
+  `Mass` decimal(12,2) DEFAULT NULL,
+  `Mstars` decimal(12,2) DEFAULT NULL,
+  PRIMARY KEY (`Snapshot`)
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci;
+/*!40101 SET character_set_client = @saved_cs_client */;
+
+--
+-- Table structure for table `DM2414`
+--
+
+DROP TABLE IF EXISTS `DM2414`;
+/*!40101 SET @saved_cs_client     = @@character_set_client */;
+/*!50503 SET character_set_client = utf8mb4 */;
+CREATE TABLE `DM2414` (
+  `Snapshot` int NOT NULL,
+  `Lookback` decimal(5,2) DEFAULT NULL,
+  `X` decimal(5,2) DEFAULT NULL,
+  `Y` decimal(5,2) DEFAULT NULL,
+  `Z` decimal(5,2) DEFAULT NULL,
+  `R` decimal(5,2) DEFAULT NULL,
+  `Mass` decimal(12,2) DEFAULT NULL,
+  `Mstars` decimal(12,2) DEFAULT NULL,
+  PRIMARY KEY (`Snapshot`)
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci;
+/*!40101 SET character_set_client = @saved_cs_client */;
+
+--
+-- Table structure for table `DM2416`
+--
+
+DROP TABLE IF EXISTS `DM2416`;
+/*!40101 SET @saved_cs_client     = @@character_set_client */;
+/*!50503 SET character_set_client = utf8mb4 */;
+CREATE TABLE `DM2416` (
+  `Snapshot` int NOT NULL,
+  `Lookback` decimal(5,2) DEFAULT NULL,
+  `X` decimal(5,2) DEFAULT NULL,
+  `Y` decimal(5,2) DEFAULT NULL,
+  `Z` decimal(5,2) DEFAULT NULL,
+  `R` decimal(5,2) DEFAULT NULL,
+  `Mass` decimal(12,2) DEFAULT NULL,
+  `Mstars` decimal(12,2) DEFAULT NULL,
+  PRIMARY KEY (`Snapshot`)
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci;
+/*!40101 SET character_set_client = @saved_cs_client */;
+
+--
+-- Table structure for table `DM242`
+--
+
+DROP TABLE IF EXISTS `DM242`;
+/*!40101 SET @saved_cs_client     = @@character_set_client */;
+/*!50503 SET character_set_client = utf8mb4 */;
+CREATE TABLE `DM242` (
+  `Snapshot` int NOT NULL,
+  `Lookback` decimal(5,2) DEFAULT NULL,
+  `X` decimal(5,2) DEFAULT NULL,
+  `Y` decimal(5,2) DEFAULT NULL,
+  `Z` decimal(5,2) DEFAULT NULL,
+  `R` decimal(5,2) DEFAULT NULL,
+  `Mass` decimal(12,2) DEFAULT NULL,
+  `Mstars` decimal(12,2) DEFAULT NULL,
+  PRIMARY KEY (`Snapshot`)
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci;
+/*!40101 SET character_set_client = @saved_cs_client */;
+
+--
+-- Table structure for table `DM2420`
+--
+
+DROP TABLE IF EXISTS `DM2420`;
+/*!40101 SET @saved_cs_client     = @@character_set_client */;
+/*!50503 SET character_set_client = utf8mb4 */;
+CREATE TABLE `DM2420` (
+  `Snapshot` int NOT NULL,
+  `Lookback` decimal(5,2) DEFAULT NULL,
+  `X` decimal(5,2) DEFAULT NULL,
+  `Y` decimal(5,2) DEFAULT NULL,
+  `Z` decimal(5,2) DEFAULT NULL,
+  `R` decimal(5,2) DEFAULT NULL,
+  `Mass` decimal(12,2) DEFAULT NULL,
+  `Mstars` decimal(12,2) DEFAULT NULL,
+  PRIMARY KEY (`Snapshot`)
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci;
+/*!40101 SET character_set_client = @saved_cs_client */;
+
+--
+-- Table structure for table `DM2427`
+--
+
+DROP TABLE IF EXISTS `DM2427`;
+/*!40101 SET @saved_cs_client     = @@character_set_client */;
+/*!50503 SET character_set_client = utf8mb4 */;
+CREATE TABLE `DM2427` (
+  `Snapshot` int NOT NULL,
+  `Lookback` decimal(5,2) DEFAULT NULL,
+  `X` decimal(5,2) DEFAULT NULL,
+  `Y` decimal(5,2) DEFAULT NULL,
+  `Z` decimal(5,2) DEFAULT NULL,
+  `R` decimal(5,2) DEFAULT NULL,
+  `Mass` decimal(12,2) DEFAULT NULL,
+  `Mstars` decimal(12,2) DEFAULT NULL,
+  PRIMARY KEY (`Snapshot`)
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci;
+/*!40101 SET character_set_client = @saved_cs_client */;
+
+--
+-- Table structure for table `DM2441`
+--
+
+DROP TABLE IF EXISTS `DM2441`;
+/*!40101 SET @saved_cs_client     = @@character_set_client */;
+/*!50503 SET character_set_client = utf8mb4 */;
+CREATE TABLE `DM2441` (
+  `Snapshot` int NOT NULL,
+  `Lookback` decimal(5,2) DEFAULT NULL,
+  `X` decimal(5,2) DEFAULT NULL,
+  `Y` decimal(5,2) DEFAULT NULL,
+  `Z` decimal(5,2) DEFAULT NULL,
+  `R` decimal(5,2) DEFAULT NULL,
+  `Mass` decimal(12,2) DEFAULT NULL,
+  `Mstars` decimal(12,2) DEFAULT NULL,
+  PRIMARY KEY (`Snapshot`)
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci;
+/*!40101 SET character_set_client = @saved_cs_client */;
+
+--
+-- Table structure for table `DM2447`
+--
+
+DROP TABLE IF EXISTS `DM2447`;
+/*!40101 SET @saved_cs_client     = @@character_set_client */;
+/*!50503 SET character_set_client = utf8mb4 */;
+CREATE TABLE `DM2447` (
+  `Snapshot` int NOT NULL,
+  `Lookback` decimal(5,2) DEFAULT NULL,
+  `X` decimal(5,2) DEFAULT NULL,
+  `Y` decimal(5,2) DEFAULT NULL,
+  `Z` decimal(5,2) DEFAULT NULL,
+  `R` decimal(5,2) DEFAULT NULL,
+  `Mass` decimal(12,2) DEFAULT NULL,
+  `Mstars` decimal(12,2) DEFAULT NULL,
+  PRIMARY KEY (`Snapshot`)
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci;
+/*!40101 SET character_set_client = @saved_cs_client */;
+
+--
+-- Table structure for table `DM2470`
+--
+
+DROP TABLE IF EXISTS `DM2470`;
+/*!40101 SET @saved_cs_client     = @@character_set_client */;
+/*!50503 SET character_set_client = utf8mb4 */;
+CREATE TABLE `DM2470` (
+  `Snapshot` int NOT NULL,
+  `Lookback` decimal(5,2) DEFAULT NULL,
+  `X` decimal(5,2) DEFAULT NULL,
+  `Y` decimal(5,2) DEFAULT NULL,
+  `Z` decimal(5,2) DEFAULT NULL,
+  `R` decimal(5,2) DEFAULT NULL,
+  `Mass` decimal(12,2) DEFAULT NULL,
+  `Mstars` decimal(12,2) DEFAULT NULL,
+  PRIMARY KEY (`Snapshot`)
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci;
+/*!40101 SET character_set_client = @saved_cs_client */;
+
+--
+-- Table structure for table `DM2479`
+--
+
+DROP TABLE IF EXISTS `DM2479`;
+/*!40101 SET @saved_cs_client     = @@character_set_client */;
+/*!50503 SET character_set_client = utf8mb4 */;
+CREATE TABLE `DM2479` (
+  `Snapshot` int NOT NULL,
+  `Lookback` decimal(5,2) DEFAULT NULL,
+  `X` decimal(5,2) DEFAULT NULL,
+  `Y` decimal(5,2) DEFAULT NULL,
+  `Z` decimal(5,2) DEFAULT NULL,
+  `R` decimal(5,2) DEFAULT NULL,
+  `Mass` decimal(12,2) DEFAULT NULL,
+  `Mstars` decimal(12,2) DEFAULT NULL,
+  PRIMARY KEY (`Snapshot`)
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci;
+/*!40101 SET character_set_client = @saved_cs_client */;
+
+--
+-- Table structure for table `DM2502`
+--
+
+DROP TABLE IF EXISTS `DM2502`;
+/*!40101 SET @saved_cs_client     = @@character_set_client */;
+/*!50503 SET character_set_client = utf8mb4 */;
+CREATE TABLE `DM2502` (
+  `Snapshot` int NOT NULL,
+  `Lookback` decimal(5,2) DEFAULT NULL,
+  `X` decimal(5,2) DEFAULT NULL,
+  `Y` decimal(5,2) DEFAULT NULL,
+  `Z` decimal(5,2) DEFAULT NULL,
+  `R` decimal(5,2) DEFAULT NULL,
+  `Mass` decimal(12,2) DEFAULT NULL,
+  `Mstars` decimal(12,2) DEFAULT NULL,
+  PRIMARY KEY (`Snapshot`)
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci;
+/*!40101 SET character_set_client = @saved_cs_client */;
+
+--
+-- Table structure for table `DM2503`
+--
+
+DROP TABLE IF EXISTS `DM2503`;
+/*!40101 SET @saved_cs_client     = @@character_set_client */;
+/*!50503 SET character_set_client = utf8mb4 */;
+CREATE TABLE `DM2503` (
+  `Snapshot` int NOT NULL,
+  `Lookback` decimal(5,2) DEFAULT NULL,
+  `X` decimal(5,2) DEFAULT NULL,
+  `Y` decimal(5,2) DEFAULT NULL,
+  `Z` decimal(5,2) DEFAULT NULL,
+  `R` decimal(5,2) DEFAULT NULL,
+  `Mass` decimal(12,2) DEFAULT NULL,
+  `Mstars` decimal(12,2) DEFAULT NULL,
+  PRIMARY KEY (`Snapshot`)
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci;
+/*!40101 SET character_set_client = @saved_cs_client */;
+
+--
+-- Table structure for table `DM2504`
+--
+
+DROP TABLE IF EXISTS `DM2504`;
+/*!40101 SET @saved_cs_client     = @@character_set_client */;
+/*!50503 SET character_set_client = utf8mb4 */;
+CREATE TABLE `DM2504` (
+  `Snapshot` int NOT NULL,
+  `Lookback` decimal(5,2) DEFAULT NULL,
+  `X` decimal(5,2) DEFAULT NULL,
+  `Y` decimal(5,2) DEFAULT NULL,
+  `Z` decimal(5,2) DEFAULT NULL,
+  `R` decimal(5,2) DEFAULT NULL,
+  `Mass` decimal(12,2) DEFAULT NULL,
+  `Mstars` decimal(12,2) DEFAULT NULL,
+  PRIMARY KEY (`Snapshot`)
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci;
+/*!40101 SET character_set_client = @saved_cs_client */;
+
+--
+-- Table structure for table `DM2512`
+--
+
+DROP TABLE IF EXISTS `DM2512`;
+/*!40101 SET @saved_cs_client     = @@character_set_client */;
+/*!50503 SET character_set_client = utf8mb4 */;
+CREATE TABLE `DM2512` (
+  `Snapshot` int NOT NULL,
+  `Lookback` decimal(5,2) DEFAULT NULL,
+  `X` decimal(5,2) DEFAULT NULL,
+  `Y` decimal(5,2) DEFAULT NULL,
+  `Z` decimal(5,2) DEFAULT NULL,
+  `R` decimal(5,2) DEFAULT NULL,
+  `Mass` decimal(12,2) DEFAULT NULL,
+  `Mstars` decimal(12,2) DEFAULT NULL,
+  PRIMARY KEY (`Snapshot`)
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci;
+/*!40101 SET character_set_client = @saved_cs_client */;
+
+--
+-- Table structure for table `DM2520`
+--
+
+DROP TABLE IF EXISTS `DM2520`;
+/*!40101 SET @saved_cs_client     = @@character_set_client */;
+/*!50503 SET character_set_client = utf8mb4 */;
+CREATE TABLE `DM2520` (
+  `Snapshot` int NOT NULL,
+  `Lookback` decimal(5,2) DEFAULT NULL,
+  `X` decimal(5,2) DEFAULT NULL,
+  `Y` decimal(5,2) DEFAULT NULL,
+  `Z` decimal(5,2) DEFAULT NULL,
+  `R` decimal(5,2) DEFAULT NULL,
+  `Mass` decimal(12,2) DEFAULT NULL,
+  `Mstars` decimal(12,2) DEFAULT NULL,
+  PRIMARY KEY (`Snapshot`)
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci;
+/*!40101 SET character_set_client = @saved_cs_client */;
+
+--
+-- Table structure for table `DM2522`
+--
+
+DROP TABLE IF EXISTS `DM2522`;
+/*!40101 SET @saved_cs_client     = @@character_set_client */;
+/*!50503 SET character_set_client = utf8mb4 */;
+CREATE TABLE `DM2522` (
+  `Snapshot` int NOT NULL,
+  `Lookback` decimal(5,2) DEFAULT NULL,
+  `X` decimal(5,2) DEFAULT NULL,
+  `Y` decimal(5,2) DEFAULT NULL,
+  `Z` decimal(5,2) DEFAULT NULL,
+  `R` decimal(5,2) DEFAULT NULL,
+  `Mass` decimal(12,2) DEFAULT NULL,
+  `Mstars` decimal(12,2) DEFAULT NULL,
+  PRIMARY KEY (`Snapshot`)
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci;
+/*!40101 SET character_set_client = @saved_cs_client */;
+
+--
+-- Table structure for table `DM2524`
+--
+
+DROP TABLE IF EXISTS `DM2524`;
+/*!40101 SET @saved_cs_client     = @@character_set_client */;
+/*!50503 SET character_set_client = utf8mb4 */;
+CREATE TABLE `DM2524` (
+  `Snapshot` int NOT NULL,
+  `Lookback` decimal(5,2) DEFAULT NULL,
+  `X` decimal(5,2) DEFAULT NULL,
+  `Y` decimal(5,2) DEFAULT NULL,
+  `Z` decimal(5,2) DEFAULT NULL,
+  `R` decimal(5,2) DEFAULT NULL,
+  `Mass` decimal(12,2) DEFAULT NULL,
+  `Mstars` decimal(12,2) DEFAULT NULL,
+  PRIMARY KEY (`Snapshot`)
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci;
+/*!40101 SET character_set_client = @saved_cs_client */;
+
+--
+-- Table structure for table `DM2540`
+--
+
+DROP TABLE IF EXISTS `DM2540`;
+/*!40101 SET @saved_cs_client     = @@character_set_client */;
+/*!50503 SET character_set_client = utf8mb4 */;
+CREATE TABLE `DM2540` (
+  `Snapshot` int NOT NULL,
+  `Lookback` decimal(5,2) DEFAULT NULL,
+  `X` decimal(5,2) DEFAULT NULL,
+  `Y` decimal(5,2) DEFAULT NULL,
+  `Z` decimal(5,2) DEFAULT NULL,
+  `R` decimal(5,2) DEFAULT NULL,
+  `Mass` decimal(12,2) DEFAULT NULL,
+  `Mstars` decimal(12,2) DEFAULT NULL,
+  PRIMARY KEY (`Snapshot`)
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci;
+/*!40101 SET character_set_client = @saved_cs_client */;
+
+--
+-- Table structure for table `DM2550`
+--
+
+DROP TABLE IF EXISTS `DM2550`;
+/*!40101 SET @saved_cs_client     = @@character_set_client */;
+/*!50503 SET character_set_client = utf8mb4 */;
+CREATE TABLE `DM2550` (
+  `Snapshot` int NOT NULL,
+  `Lookback` decimal(5,2) DEFAULT NULL,
+  `X` decimal(5,2) DEFAULT NULL,
+  `Y` decimal(5,2) DEFAULT NULL,
+  `Z` decimal(5,2) DEFAULT NULL,
+  `R` decimal(5,2) DEFAULT NULL,
+  `Mass` decimal(12,2) DEFAULT NULL,
+  `Mstars` decimal(12,2) DEFAULT NULL,
+  PRIMARY KEY (`Snapshot`)
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci;
+/*!40101 SET character_set_client = @saved_cs_client */;
+
+--
+-- Table structure for table `DM2552`
+--
+
+DROP TABLE IF EXISTS `DM2552`;
+/*!40101 SET @saved_cs_client     = @@character_set_client */;
+/*!50503 SET character_set_client = utf8mb4 */;
+CREATE TABLE `DM2552` (
+  `Snapshot` int NOT NULL,
+  `Lookback` decimal(5,2) DEFAULT NULL,
+  `X` decimal(5,2) DEFAULT NULL,
+  `Y` decimal(5,2) DEFAULT NULL,
+  `Z` decimal(5,2) DEFAULT NULL,
+  `R` decimal(5,2) DEFAULT NULL,
+  `Mass` decimal(12,2) DEFAULT NULL,
+  `Mstars` decimal(12,2) DEFAULT NULL,
+  PRIMARY KEY (`Snapshot`)
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci;
+/*!40101 SET character_set_client = @saved_cs_client */;
+
+--
+-- Table structure for table `DM2564`
+--
+
+DROP TABLE IF EXISTS `DM2564`;
+/*!40101 SET @saved_cs_client     = @@character_set_client */;
+/*!50503 SET character_set_client = utf8mb4 */;
+CREATE TABLE `DM2564` (
+  `Snapshot` int NOT NULL,
+  `Lookback` decimal(5,2) DEFAULT NULL,
+  `X` decimal(5,2) DEFAULT NULL,
+  `Y` decimal(5,2) DEFAULT NULL,
+  `Z` decimal(5,2) DEFAULT NULL,
+  `R` decimal(5,2) DEFAULT NULL,
+  `Mass` decimal(12,2) DEFAULT NULL,
+  `Mstars` decimal(12,2) DEFAULT NULL,
+  PRIMARY KEY (`Snapshot`)
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci;
+/*!40101 SET character_set_client = @saved_cs_client */;
+
+--
+-- Table structure for table `DM2568`
+--
+
+DROP TABLE IF EXISTS `DM2568`;
+/*!40101 SET @saved_cs_client     = @@character_set_client */;
+/*!50503 SET character_set_client = utf8mb4 */;
+CREATE TABLE `DM2568` (
+  `Snapshot` int NOT NULL,
+  `Lookback` decimal(5,2) DEFAULT NULL,
+  `X` decimal(5,2) DEFAULT NULL,
+  `Y` decimal(5,2) DEFAULT NULL,
+  `Z` decimal(5,2) DEFAULT NULL,
+  `R` decimal(5,2) DEFAULT NULL,
+  `Mass` decimal(12,2) DEFAULT NULL,
+  `Mstars` decimal(12,2) DEFAULT NULL,
+  PRIMARY KEY (`Snapshot`)
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci;
+/*!40101 SET character_set_client = @saved_cs_client */;
+
+--
+-- Table structure for table `DM2585`
+--
+
+DROP TABLE IF EXISTS `DM2585`;
+/*!40101 SET @saved_cs_client     = @@character_set_client */;
+/*!50503 SET character_set_client = utf8mb4 */;
+CREATE TABLE `DM2585` (
+  `Snapshot` int NOT NULL,
+  `Lookback` decimal(5,2) DEFAULT NULL,
+  `X` decimal(5,2) DEFAULT NULL,
+  `Y` decimal(5,2) DEFAULT NULL,
+  `Z` decimal(5,2) DEFAULT NULL,
+  `R` decimal(5,2) DEFAULT NULL,
+  `Mass` decimal(12,2) DEFAULT NULL,
+  `Mstars` decimal(12,2) DEFAULT NULL,
+  PRIMARY KEY (`Snapshot`)
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci;
+/*!40101 SET character_set_client = @saved_cs_client */;
+
+--
+-- Table structure for table `DM2586`
+--
+
+DROP TABLE IF EXISTS `DM2586`;
+/*!40101 SET @saved_cs_client     = @@character_set_client */;
+/*!50503 SET character_set_client = utf8mb4 */;
+CREATE TABLE `DM2586` (
+  `Snapshot` int NOT NULL,
+  `Lookback` decimal(5,2) DEFAULT NULL,
+  `X` decimal(5,2) DEFAULT NULL,
+  `Y` decimal(5,2) DEFAULT NULL,
+  `Z` decimal(5,2) DEFAULT NULL,
+  `R` decimal(5,2) DEFAULT NULL,
+  `Mass` decimal(12,2) DEFAULT NULL,
+  `Mstars` decimal(12,2) DEFAULT NULL,
+  PRIMARY KEY (`Snapshot`)
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci;
+/*!40101 SET character_set_client = @saved_cs_client */;
+
+--
+-- Table structure for table `DM2587`
+--
+
+DROP TABLE IF EXISTS `DM2587`;
+/*!40101 SET @saved_cs_client     = @@character_set_client */;
+/*!50503 SET character_set_client = utf8mb4 */;
+CREATE TABLE `DM2587` (
+  `Snapshot` int NOT NULL,
+  `Lookback` decimal(5,2) DEFAULT NULL,
+  `X` decimal(5,2) DEFAULT NULL,
+  `Y` decimal(5,2) DEFAULT NULL,
+  `Z` decimal(5,2) DEFAULT NULL,
+  `R` decimal(5,2) DEFAULT NULL,
+  `Mass` decimal(12,2) DEFAULT NULL,
+  `Mstars` decimal(12,2) DEFAULT NULL,
+  PRIMARY KEY (`Snapshot`)
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci;
+/*!40101 SET character_set_client = @saved_cs_client */;
+
+--
+-- Table structure for table `DM2592`
+--
+
+DROP TABLE IF EXISTS `DM2592`;
+/*!40101 SET @saved_cs_client     = @@character_set_client */;
+/*!50503 SET character_set_client = utf8mb4 */;
+CREATE TABLE `DM2592` (
+  `Snapshot` int NOT NULL,
+  `Lookback` decimal(5,2) DEFAULT NULL,
+  `X` decimal(5,2) DEFAULT NULL,
+  `Y` decimal(5,2) DEFAULT NULL,
+  `Z` decimal(5,2) DEFAULT NULL,
+  `R` decimal(5,2) DEFAULT NULL,
+  `Mass` decimal(12,2) DEFAULT NULL,
+  `Mstars` decimal(12,2) DEFAULT NULL,
+  PRIMARY KEY (`Snapshot`)
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci;
+/*!40101 SET character_set_client = @saved_cs_client */;
+
+--
+-- Table structure for table `DM2595`
+--
+
+DROP TABLE IF EXISTS `DM2595`;
+/*!40101 SET @saved_cs_client     = @@character_set_client */;
+/*!50503 SET character_set_client = utf8mb4 */;
+CREATE TABLE `DM2595` (
+  `Snapshot` int NOT NULL,
+  `Lookback` decimal(5,2) DEFAULT NULL,
+  `X` decimal(5,2) DEFAULT NULL,
+  `Y` decimal(5,2) DEFAULT NULL,
+  `Z` decimal(5,2) DEFAULT NULL,
+  `R` decimal(5,2) DEFAULT NULL,
+  `Mass` decimal(12,2) DEFAULT NULL,
+  `Mstars` decimal(12,2) DEFAULT NULL,
+  PRIMARY KEY (`Snapshot`)
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci;
+/*!40101 SET character_set_client = @saved_cs_client */;
+
+--
+-- Table structure for table `DM2601`
+--
+
+DROP TABLE IF EXISTS `DM2601`;
+/*!40101 SET @saved_cs_client     = @@character_set_client */;
+/*!50503 SET character_set_client = utf8mb4 */;
+CREATE TABLE `DM2601` (
+  `Snapshot` int NOT NULL,
+  `Lookback` decimal(5,2) DEFAULT NULL,
+  `X` decimal(5,2) DEFAULT NULL,
+  `Y` decimal(5,2) DEFAULT NULL,
+  `Z` decimal(5,2) DEFAULT NULL,
+  `R` decimal(5,2) DEFAULT NULL,
+  `Mass` decimal(12,2) DEFAULT NULL,
+  `Mstars` decimal(12,2) DEFAULT NULL,
+  PRIMARY KEY (`Snapshot`)
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci;
+/*!40101 SET character_set_client = @saved_cs_client */;
+
+--
+-- Table structure for table `DM2618`
+--
+
+DROP TABLE IF EXISTS `DM2618`;
+/*!40101 SET @saved_cs_client     = @@character_set_client */;
+/*!50503 SET character_set_client = utf8mb4 */;
+CREATE TABLE `DM2618` (
+  `Snapshot` int NOT NULL,
+  `Lookback` decimal(5,2) DEFAULT NULL,
+  `X` decimal(5,2) DEFAULT NULL,
+  `Y` decimal(5,2) DEFAULT NULL,
+  `Z` decimal(5,2) DEFAULT NULL,
+  `R` decimal(5,2) DEFAULT NULL,
+  `Mass` decimal(12,2) DEFAULT NULL,
+  `Mstars` decimal(12,2) DEFAULT NULL,
+  PRIMARY KEY (`Snapshot`)
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci;
+/*!40101 SET character_set_client = @saved_cs_client */;
+
+--
+-- Table structure for table `DM2633`
+--
+
+DROP TABLE IF EXISTS `DM2633`;
+/*!40101 SET @saved_cs_client     = @@character_set_client */;
+/*!50503 SET character_set_client = utf8mb4 */;
+CREATE TABLE `DM2633` (
+  `Snapshot` int NOT NULL,
+  `Lookback` decimal(5,2) DEFAULT NULL,
+  `X` decimal(5,2) DEFAULT NULL,
+  `Y` decimal(5,2) DEFAULT NULL,
+  `Z` decimal(5,2) DEFAULT NULL,
+  `R` decimal(5,2) DEFAULT NULL,
+  `Mass` decimal(12,2) DEFAULT NULL,
+  `Mstars` decimal(12,2) DEFAULT NULL,
+  PRIMARY KEY (`Snapshot`)
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci;
+/*!40101 SET character_set_client = @saved_cs_client */;
+
+--
+-- Table structure for table `DM2682`
+--
+
+DROP TABLE IF EXISTS `DM2682`;
+/*!40101 SET @saved_cs_client     = @@character_set_client */;
+/*!50503 SET character_set_client = utf8mb4 */;
+CREATE TABLE `DM2682` (
+  `Snapshot` int NOT NULL,
+  `Lookback` decimal(5,2) DEFAULT NULL,
+  `X` decimal(5,2) DEFAULT NULL,
+  `Y` decimal(5,2) DEFAULT NULL,
+  `Z` decimal(5,2) DEFAULT NULL,
+  `R` decimal(5,2) DEFAULT NULL,
+  `Mass` decimal(12,2) DEFAULT NULL,
+  `Mstars` decimal(12,2) DEFAULT NULL,
+  PRIMARY KEY (`Snapshot`)
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci;
+/*!40101 SET character_set_client = @saved_cs_client */;
+
+--
+-- Table structure for table `DM2683`
+--
+
+DROP TABLE IF EXISTS `DM2683`;
+/*!40101 SET @saved_cs_client     = @@character_set_client */;
+/*!50503 SET character_set_client = utf8mb4 */;
+CREATE TABLE `DM2683` (
+  `Snapshot` int NOT NULL,
+  `Lookback` decimal(5,2) DEFAULT NULL,
+  `X` decimal(5,2) DEFAULT NULL,
+  `Y` decimal(5,2) DEFAULT NULL,
+  `Z` decimal(5,2) DEFAULT NULL,
+  `R` decimal(5,2) DEFAULT NULL,
+  `Mass` decimal(12,2) DEFAULT NULL,
+  `Mstars` decimal(12,2) DEFAULT NULL,
+  PRIMARY KEY (`Snapshot`)
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci;
+/*!40101 SET character_set_client = @saved_cs_client */;
+
+--
+-- Table structure for table `DM2693`
+--
+
+DROP TABLE IF EXISTS `DM2693`;
+/*!40101 SET @saved_cs_client     = @@character_set_client */;
+/*!50503 SET character_set_client = utf8mb4 */;
+CREATE TABLE `DM2693` (
+  `Snapshot` int NOT NULL,
+  `Lookback` decimal(5,2) DEFAULT NULL,
+  `X` decimal(5,2) DEFAULT NULL,
+  `Y` decimal(5,2) DEFAULT NULL,
+  `Z` decimal(5,2) DEFAULT NULL,
+  `R` decimal(5,2) DEFAULT NULL,
+  `Mass` decimal(12,2) DEFAULT NULL,
+  `Mstars` decimal(12,2) DEFAULT NULL,
+  PRIMARY KEY (`Snapshot`)
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci;
+/*!40101 SET character_set_client = @saved_cs_client */;
+
+--
+-- Table structure for table `DM27`
+--
+
+DROP TABLE IF EXISTS `DM27`;
+/*!40101 SET @saved_cs_client     = @@character_set_client */;
+/*!50503 SET character_set_client = utf8mb4 */;
+CREATE TABLE `DM27` (
+  `Snapshot` int NOT NULL,
+  `Lookback` decimal(5,2) DEFAULT NULL,
+  `X` decimal(5,2) DEFAULT NULL,
+  `Y` decimal(5,2) DEFAULT NULL,
+  `Z` decimal(5,2) DEFAULT NULL,
+  `R` decimal(5,2) DEFAULT NULL,
+  `Mass` decimal(12,2) DEFAULT NULL,
+  `Mstars` decimal(12,2) DEFAULT NULL,
+  PRIMARY KEY (`Snapshot`)
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci;
+/*!40101 SET character_set_client = @saved_cs_client */;
+
+--
+-- Table structure for table `DM2731`
+--
+
+DROP TABLE IF EXISTS `DM2731`;
+/*!40101 SET @saved_cs_client     = @@character_set_client */;
+/*!50503 SET character_set_client = utf8mb4 */;
+CREATE TABLE `DM2731` (
+  `Snapshot` int NOT NULL,
+  `Lookback` decimal(5,2) DEFAULT NULL,
+  `X` decimal(5,2) DEFAULT NULL,
+  `Y` decimal(5,2) DEFAULT NULL,
+  `Z` decimal(5,2) DEFAULT NULL,
+  `R` decimal(5,2) DEFAULT NULL,
+  `Mass` decimal(12,2) DEFAULT NULL,
+  `Mstars` decimal(12,2) DEFAULT NULL,
+  PRIMARY KEY (`Snapshot`)
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci;
+/*!40101 SET character_set_client = @saved_cs_client */;
+
+--
+-- Table structure for table `DM2734`
+--
+
+DROP TABLE IF EXISTS `DM2734`;
+/*!40101 SET @saved_cs_client     = @@character_set_client */;
+/*!50503 SET character_set_client = utf8mb4 */;
+CREATE TABLE `DM2734` (
+  `Snapshot` int NOT NULL,
+  `Lookback` decimal(5,2) DEFAULT NULL,
+  `X` decimal(5,2) DEFAULT NULL,
+  `Y` decimal(5,2) DEFAULT NULL,
+  `Z` decimal(5,2) DEFAULT NULL,
+  `R` decimal(5,2) DEFAULT NULL,
+  `Mass` decimal(12,2) DEFAULT NULL,
+  `Mstars` decimal(12,2) DEFAULT NULL,
+  PRIMARY KEY (`Snapshot`)
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci;
+/*!40101 SET character_set_client = @saved_cs_client */;
+
+--
+-- Table structure for table `DM2737`
+--
+
+DROP TABLE IF EXISTS `DM2737`;
+/*!40101 SET @saved_cs_client     = @@character_set_client */;
+/*!50503 SET character_set_client = utf8mb4 */;
+CREATE TABLE `DM2737` (
+  `Snapshot` int NOT NULL,
+  `Lookback` decimal(5,2) DEFAULT NULL,
+  `X` decimal(5,2) DEFAULT NULL,
+  `Y` decimal(5,2) DEFAULT NULL,
+  `Z` decimal(5,2) DEFAULT NULL,
+  `R` decimal(5,2) DEFAULT NULL,
+  `Mass` decimal(12,2) DEFAULT NULL,
+  `Mstars` decimal(12,2) DEFAULT NULL,
+  PRIMARY KEY (`Snapshot`)
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci;
+/*!40101 SET character_set_client = @saved_cs_client */;
+
+--
+-- Table structure for table `DM2771`
+--
+
+DROP TABLE IF EXISTS `DM2771`;
+/*!40101 SET @saved_cs_client     = @@character_set_client */;
+/*!50503 SET character_set_client = utf8mb4 */;
+CREATE TABLE `DM2771` (
+  `Snapshot` int NOT NULL,
+  `Lookback` decimal(5,2) DEFAULT NULL,
+  `X` decimal(5,2) DEFAULT NULL,
+  `Y` decimal(5,2) DEFAULT NULL,
+  `Z` decimal(5,2) DEFAULT NULL,
+  `R` decimal(5,2) DEFAULT NULL,
+  `Mass` decimal(12,2) DEFAULT NULL,
+  `Mstars` decimal(12,2) DEFAULT NULL,
+  PRIMARY KEY (`Snapshot`)
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci;
+/*!40101 SET character_set_client = @saved_cs_client */;
+
+--
+-- Table structure for table `DM2782`
+--
+
+DROP TABLE IF EXISTS `DM2782`;
+/*!40101 SET @saved_cs_client     = @@character_set_client */;
+/*!50503 SET character_set_client = utf8mb4 */;
+CREATE TABLE `DM2782` (
+  `Snapshot` int NOT NULL,
+  `Lookback` decimal(5,2) DEFAULT NULL,
+  `X` decimal(5,2) DEFAULT NULL,
+  `Y` decimal(5,2) DEFAULT NULL,
+  `Z` decimal(5,2) DEFAULT NULL,
+  `R` decimal(5,2) DEFAULT NULL,
+  `Mass` decimal(12,2) DEFAULT NULL,
+  `Mstars` decimal(12,2) DEFAULT NULL,
+  PRIMARY KEY (`Snapshot`)
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci;
+/*!40101 SET character_set_client = @saved_cs_client */;
+
+--
+-- Table structure for table `DM2788`
+--
+
+DROP TABLE IF EXISTS `DM2788`;
+/*!40101 SET @saved_cs_client     = @@character_set_client */;
+/*!50503 SET character_set_client = utf8mb4 */;
+CREATE TABLE `DM2788` (
+  `Snapshot` int NOT NULL,
+  `Lookback` decimal(5,2) DEFAULT NULL,
+  `X` decimal(5,2) DEFAULT NULL,
+  `Y` decimal(5,2) DEFAULT NULL,
+  `Z` decimal(5,2) DEFAULT NULL,
+  `R` decimal(5,2) DEFAULT NULL,
+  `Mass` decimal(12,2) DEFAULT NULL,
+  `Mstars` decimal(12,2) DEFAULT NULL,
+  PRIMARY KEY (`Snapshot`)
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci;
+/*!40101 SET character_set_client = @saved_cs_client */;
+
+--
+-- Table structure for table `DM2796`
+--
+
+DROP TABLE IF EXISTS `DM2796`;
+/*!40101 SET @saved_cs_client     = @@character_set_client */;
+/*!50503 SET character_set_client = utf8mb4 */;
+CREATE TABLE `DM2796` (
+  `Snapshot` int NOT NULL,
+  `Lookback` decimal(5,2) DEFAULT NULL,
+  `X` decimal(5,2) DEFAULT NULL,
+  `Y` decimal(5,2) DEFAULT NULL,
+  `Z` decimal(5,2) DEFAULT NULL,
+  `R` decimal(5,2) DEFAULT NULL,
+  `Mass` decimal(12,2) DEFAULT NULL,
+  `Mstars` decimal(12,2) DEFAULT NULL,
+  PRIMARY KEY (`Snapshot`)
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci;
+/*!40101 SET character_set_client = @saved_cs_client */;
+
+--
+-- Table structure for table `DM2797`
+--
+
+DROP TABLE IF EXISTS `DM2797`;
+/*!40101 SET @saved_cs_client     = @@character_set_client */;
+/*!50503 SET character_set_client = utf8mb4 */;
+CREATE TABLE `DM2797` (
+  `Snapshot` int NOT NULL,
+  `Lookback` decimal(5,2) DEFAULT NULL,
+  `X` decimal(5,2) DEFAULT NULL,
+  `Y` decimal(5,2) DEFAULT NULL,
+  `Z` decimal(5,2) DEFAULT NULL,
+  `R` decimal(5,2) DEFAULT NULL,
+  `Mass` decimal(12,2) DEFAULT NULL,
+  `Mstars` decimal(12,2) DEFAULT NULL,
+  PRIMARY KEY (`Snapshot`)
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci;
+/*!40101 SET character_set_client = @saved_cs_client */;
+
+--
+-- Table structure for table `DM2800`
+--
+
+DROP TABLE IF EXISTS `DM2800`;
+/*!40101 SET @saved_cs_client     = @@character_set_client */;
+/*!50503 SET character_set_client = utf8mb4 */;
+CREATE TABLE `DM2800` (
+  `Snapshot` int NOT NULL,
+  `Lookback` decimal(5,2) DEFAULT NULL,
+  `X` decimal(5,2) DEFAULT NULL,
+  `Y` decimal(5,2) DEFAULT NULL,
+  `Z` decimal(5,2) DEFAULT NULL,
+  `R` decimal(5,2) DEFAULT NULL,
+  `Mass` decimal(12,2) DEFAULT NULL,
+  `Mstars` decimal(12,2) DEFAULT NULL,
+  PRIMARY KEY (`Snapshot`)
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci;
+/*!40101 SET character_set_client = @saved_cs_client */;
+
+--
+-- Table structure for table `DM2805`
+--
+
+DROP TABLE IF EXISTS `DM2805`;
+/*!40101 SET @saved_cs_client     = @@character_set_client */;
+/*!50503 SET character_set_client = utf8mb4 */;
+CREATE TABLE `DM2805` (
+  `Snapshot` int NOT NULL,
+  `Lookback` decimal(5,2) DEFAULT NULL,
+  `X` decimal(5,2) DEFAULT NULL,
+  `Y` decimal(5,2) DEFAULT NULL,
+  `Z` decimal(5,2) DEFAULT NULL,
+  `R` decimal(5,2) DEFAULT NULL,
+  `Mass` decimal(12,2) DEFAULT NULL,
+  `Mstars` decimal(12,2) DEFAULT NULL,
+  PRIMARY KEY (`Snapshot`)
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci;
+/*!40101 SET character_set_client = @saved_cs_client */;
+
+--
+-- Table structure for table `DM2814`
+--
+
+DROP TABLE IF EXISTS `DM2814`;
+/*!40101 SET @saved_cs_client     = @@character_set_client */;
+/*!50503 SET character_set_client = utf8mb4 */;
+CREATE TABLE `DM2814` (
+  `Snapshot` int NOT NULL,
+  `Lookback` decimal(5,2) DEFAULT NULL,
+  `X` decimal(5,2) DEFAULT NULL,
+  `Y` decimal(5,2) DEFAULT NULL,
+  `Z` decimal(5,2) DEFAULT NULL,
+  `R` decimal(5,2) DEFAULT NULL,
+  `Mass` decimal(12,2) DEFAULT NULL,
+  `Mstars` decimal(12,2) DEFAULT NULL,
+  PRIMARY KEY (`Snapshot`)
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci;
+/*!40101 SET character_set_client = @saved_cs_client */;
+
+--
+-- Table structure for table `DM2820`
+--
+
+DROP TABLE IF EXISTS `DM2820`;
+/*!40101 SET @saved_cs_client     = @@character_set_client */;
+/*!50503 SET character_set_client = utf8mb4 */;
+CREATE TABLE `DM2820` (
+  `Snapshot` int NOT NULL,
+  `Lookback` decimal(5,2) DEFAULT NULL,
+  `X` decimal(5,2) DEFAULT NULL,
+  `Y` decimal(5,2) DEFAULT NULL,
+  `Z` decimal(5,2) DEFAULT NULL,
+  `R` decimal(5,2) DEFAULT NULL,
+  `Mass` decimal(12,2) DEFAULT NULL,
+  `Mstars` decimal(12,2) DEFAULT NULL,
+  PRIMARY KEY (`Snapshot`)
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci;
+/*!40101 SET character_set_client = @saved_cs_client */;
+
+--
+-- Table structure for table `DM2830`
+--
+
+DROP TABLE IF EXISTS `DM2830`;
+/*!40101 SET @saved_cs_client     = @@character_set_client */;
+/*!50503 SET character_set_client = utf8mb4 */;
+CREATE TABLE `DM2830` (
+  `Snapshot` int NOT NULL,
+  `Lookback` decimal(5,2) DEFAULT NULL,
+  `X` decimal(5,2) DEFAULT NULL,
+  `Y` decimal(5,2) DEFAULT NULL,
+  `Z` decimal(5,2) DEFAULT NULL,
+  `R` decimal(5,2) DEFAULT NULL,
+  `Mass` decimal(12,2) DEFAULT NULL,
+  `Mstars` decimal(12,2) DEFAULT NULL,
+  PRIMARY KEY (`Snapshot`)
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci;
+/*!40101 SET character_set_client = @saved_cs_client */;
+
+--
+-- Table structure for table `DM2850`
+--
+
+DROP TABLE IF EXISTS `DM2850`;
+/*!40101 SET @saved_cs_client     = @@character_set_client */;
+/*!50503 SET character_set_client = utf8mb4 */;
+CREATE TABLE `DM2850` (
+  `Snapshot` int NOT NULL,
+  `Lookback` decimal(5,2) DEFAULT NULL,
+  `X` decimal(5,2) DEFAULT NULL,
+  `Y` decimal(5,2) DEFAULT NULL,
+  `Z` decimal(5,2) DEFAULT NULL,
+  `R` decimal(5,2) DEFAULT NULL,
+  `Mass` decimal(12,2) DEFAULT NULL,
+  `Mstars` decimal(12,2) DEFAULT NULL,
+  PRIMARY KEY (`Snapshot`)
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci;
+/*!40101 SET character_set_client = @saved_cs_client */;
+
+--
+-- Table structure for table `DM2851`
+--
+
+DROP TABLE IF EXISTS `DM2851`;
+/*!40101 SET @saved_cs_client     = @@character_set_client */;
+/*!50503 SET character_set_client = utf8mb4 */;
+CREATE TABLE `DM2851` (
+  `Snapshot` int NOT NULL,
+  `Lookback` decimal(5,2) DEFAULT NULL,
+  `X` decimal(5,2) DEFAULT NULL,
+  `Y` decimal(5,2) DEFAULT NULL,
+  `Z` decimal(5,2) DEFAULT NULL,
+  `R` decimal(5,2) DEFAULT NULL,
+  `Mass` decimal(12,2) DEFAULT NULL,
+  `Mstars` decimal(12,2) DEFAULT NULL,
+  PRIMARY KEY (`Snapshot`)
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci;
+/*!40101 SET character_set_client = @saved_cs_client */;
+
+--
+-- Table structure for table `DM2883`
+--
+
+DROP TABLE IF EXISTS `DM2883`;
+/*!40101 SET @saved_cs_client     = @@character_set_client */;
+/*!50503 SET character_set_client = utf8mb4 */;
+CREATE TABLE `DM2883` (
+  `Snapshot` int NOT NULL,
+  `Lookback` decimal(5,2) DEFAULT NULL,
+  `X` decimal(5,2) DEFAULT NULL,
+  `Y` decimal(5,2) DEFAULT NULL,
+  `Z` decimal(5,2) DEFAULT NULL,
+  `R` decimal(5,2) DEFAULT NULL,
+  `Mass` decimal(12,2) DEFAULT NULL,
+  `Mstars` decimal(12,2) DEFAULT NULL,
+  PRIMARY KEY (`Snapshot`)
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci;
+/*!40101 SET character_set_client = @saved_cs_client */;
+
+--
+-- Table structure for table `DM2939`
+--
+
+DROP TABLE IF EXISTS `DM2939`;
+/*!40101 SET @saved_cs_client     = @@character_set_client */;
+/*!50503 SET character_set_client = utf8mb4 */;
+CREATE TABLE `DM2939` (
+  `Snapshot` int NOT NULL,
+  `Lookback` decimal(5,2) DEFAULT NULL,
+  `X` decimal(5,2) DEFAULT NULL,
+  `Y` decimal(5,2) DEFAULT NULL,
+  `Z` decimal(5,2) DEFAULT NULL,
+  `R` decimal(5,2) DEFAULT NULL,
+  `Mass` decimal(12,2) DEFAULT NULL,
+  `Mstars` decimal(12,2) DEFAULT NULL,
+  PRIMARY KEY (`Snapshot`)
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci;
+/*!40101 SET character_set_client = @saved_cs_client */;
+
+--
+-- Table structure for table `DM2958`
+--
+
+DROP TABLE IF EXISTS `DM2958`;
+/*!40101 SET @saved_cs_client     = @@character_set_client */;
+/*!50503 SET character_set_client = utf8mb4 */;
+CREATE TABLE `DM2958` (
+  `Snapshot` int NOT NULL,
+  `Lookback` decimal(5,2) DEFAULT NULL,
+  `X` decimal(5,2) DEFAULT NULL,
+  `Y` decimal(5,2) DEFAULT NULL,
+  `Z` decimal(5,2) DEFAULT NULL,
+  `R` decimal(5,2) DEFAULT NULL,
+  `Mass` decimal(12,2) DEFAULT NULL,
+  `Mstars` decimal(12,2) DEFAULT NULL,
+  PRIMARY KEY (`Snapshot`)
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci;
+/*!40101 SET character_set_client = @saved_cs_client */;
+
+--
+-- Table structure for table `DM2963`
+--
+
+DROP TABLE IF EXISTS `DM2963`;
+/*!40101 SET @saved_cs_client     = @@character_set_client */;
+/*!50503 SET character_set_client = utf8mb4 */;
+CREATE TABLE `DM2963` (
+  `Snapshot` int NOT NULL,
+  `Lookback` decimal(5,2) DEFAULT NULL,
+  `X` decimal(5,2) DEFAULT NULL,
+  `Y` decimal(5,2) DEFAULT NULL,
+  `Z` decimal(5,2) DEFAULT NULL,
+  `R` decimal(5,2) DEFAULT NULL,
+  `Mass` decimal(12,2) DEFAULT NULL,
+  `Mstars` decimal(12,2) DEFAULT NULL,
+  PRIMARY KEY (`Snapshot`)
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci;
+/*!40101 SET character_set_client = @saved_cs_client */;
+
+--
+-- Table structure for table `DM2967`
+--
+
+DROP TABLE IF EXISTS `DM2967`;
+/*!40101 SET @saved_cs_client     = @@character_set_client */;
+/*!50503 SET character_set_client = utf8mb4 */;
+CREATE TABLE `DM2967` (
+  `Snapshot` int NOT NULL,
+  `Lookback` decimal(5,2) DEFAULT NULL,
+  `X` decimal(5,2) DEFAULT NULL,
+  `Y` decimal(5,2) DEFAULT NULL,
+  `Z` decimal(5,2) DEFAULT NULL,
+  `R` decimal(5,2) DEFAULT NULL,
+  `Mass` decimal(12,2) DEFAULT NULL,
+  `Mstars` decimal(12,2) DEFAULT NULL,
+  PRIMARY KEY (`Snapshot`)
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci;
+/*!40101 SET character_set_client = @saved_cs_client */;
+
+--
+-- Table structure for table `DM2985`
+--
+
+DROP TABLE IF EXISTS `DM2985`;
+/*!40101 SET @saved_cs_client     = @@character_set_client */;
+/*!50503 SET character_set_client = utf8mb4 */;
+CREATE TABLE `DM2985` (
+  `Snapshot` int NOT NULL,
+  `Lookback` decimal(5,2) DEFAULT NULL,
+  `X` decimal(5,2) DEFAULT NULL,
+  `Y` decimal(5,2) DEFAULT NULL,
+  `Z` decimal(5,2) DEFAULT NULL,
+  `R` decimal(5,2) DEFAULT NULL,
+  `Mass` decimal(12,2) DEFAULT NULL,
+  `Mstars` decimal(12,2) DEFAULT NULL,
+  PRIMARY KEY (`Snapshot`)
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci;
+/*!40101 SET character_set_client = @saved_cs_client */;
+
+--
+-- Table structure for table `DM319`
+--
+
+DROP TABLE IF EXISTS `DM319`;
+/*!40101 SET @saved_cs_client     = @@character_set_client */;
+/*!50503 SET character_set_client = utf8mb4 */;
+CREATE TABLE `DM319` (
+  `Snapshot` int NOT NULL,
+  `Lookback` decimal(5,2) DEFAULT NULL,
+  `X` decimal(5,2) DEFAULT NULL,
+  `Y` decimal(5,2) DEFAULT NULL,
+  `Z` decimal(5,2) DEFAULT NULL,
+  `R` decimal(5,2) DEFAULT NULL,
+  `Mass` decimal(12,2) DEFAULT NULL,
+  `Mstars` decimal(12,2) DEFAULT NULL,
+  PRIMARY KEY (`Snapshot`)
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci;
+/*!40101 SET character_set_client = @saved_cs_client */;
+
+--
+-- Table structure for table `DM325`
+--
+
+DROP TABLE IF EXISTS `DM325`;
+/*!40101 SET @saved_cs_client     = @@character_set_client */;
+/*!50503 SET character_set_client = utf8mb4 */;
+CREATE TABLE `DM325` (
+  `Snapshot` int NOT NULL,
+  `Lookback` decimal(5,2) DEFAULT NULL,
+  `X` decimal(5,2) DEFAULT NULL,
+  `Y` decimal(5,2) DEFAULT NULL,
+  `Z` decimal(5,2) DEFAULT NULL,
+  `R` decimal(5,2) DEFAULT NULL,
+  `Mass` decimal(12,2) DEFAULT NULL,
+  `Mstars` decimal(12,2) DEFAULT NULL,
+  PRIMARY KEY (`Snapshot`)
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci;
+/*!40101 SET character_set_client = @saved_cs_client */;
+
+--
+-- Table structure for table `DM331`
+--
+
+DROP TABLE IF EXISTS `DM331`;
+/*!40101 SET @saved_cs_client     = @@character_set_client */;
+/*!50503 SET character_set_client = utf8mb4 */;
+CREATE TABLE `DM331` (
+  `Snapshot` int NOT NULL,
+  `Lookback` decimal(5,2) DEFAULT NULL,
+  `X` decimal(5,2) DEFAULT NULL,
+  `Y` decimal(5,2) DEFAULT NULL,
+  `Z` decimal(5,2) DEFAULT NULL,
+  `R` decimal(5,2) DEFAULT NULL,
+  `Mass` decimal(12,2) DEFAULT NULL,
+  `Mstars` decimal(12,2) DEFAULT NULL,
+  PRIMARY KEY (`Snapshot`)
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci;
+/*!40101 SET character_set_client = @saved_cs_client */;
+
+--
+-- Table structure for table `DM338`
+--
+
+DROP TABLE IF EXISTS `DM338`;
+/*!40101 SET @saved_cs_client     = @@character_set_client */;
+/*!50503 SET character_set_client = utf8mb4 */;
+CREATE TABLE `DM338` (
+  `Snapshot` int NOT NULL,
+  `Lookback` decimal(5,2) DEFAULT NULL,
+  `X` decimal(5,2) DEFAULT NULL,
+  `Y` decimal(5,2) DEFAULT NULL,
+  `Z` decimal(5,2) DEFAULT NULL,
+  `R` decimal(5,2) DEFAULT NULL,
+  `Mass` decimal(12,2) DEFAULT NULL,
+  `Mstars` decimal(12,2) DEFAULT NULL,
+  PRIMARY KEY (`Snapshot`)
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci;
+/*!40101 SET character_set_client = @saved_cs_client */;
+
+--
+-- Table structure for table `DM346`
+--
+
+DROP TABLE IF EXISTS `DM346`;
+/*!40101 SET @saved_cs_client     = @@character_set_client */;
+/*!50503 SET character_set_client = utf8mb4 */;
+CREATE TABLE `DM346` (
+  `Snapshot` int NOT NULL,
+  `Lookback` decimal(5,2) DEFAULT NULL,
+  `X` decimal(5,2) DEFAULT NULL,
+  `Y` decimal(5,2) DEFAULT NULL,
+  `Z` decimal(5,2) DEFAULT NULL,
+  `R` decimal(5,2) DEFAULT NULL,
+  `Mass` decimal(12,2) DEFAULT NULL,
+  `Mstars` decimal(12,2) DEFAULT NULL,
+  PRIMARY KEY (`Snapshot`)
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci;
+/*!40101 SET character_set_client = @saved_cs_client */;
+
+--
+-- Table structure for table `DM350`
+--
+
+DROP TABLE IF EXISTS `DM350`;
+/*!40101 SET @saved_cs_client     = @@character_set_client */;
+/*!50503 SET character_set_client = utf8mb4 */;
+CREATE TABLE `DM350` (
+  `Snapshot` int NOT NULL,
+  `Lookback` decimal(5,2) DEFAULT NULL,
+  `X` decimal(5,2) DEFAULT NULL,
+  `Y` decimal(5,2) DEFAULT NULL,
+  `Z` decimal(5,2) DEFAULT NULL,
+  `R` decimal(5,2) DEFAULT NULL,
+  `Mass` decimal(12,2) DEFAULT NULL,
+  `Mstars` decimal(12,2) DEFAULT NULL,
+  PRIMARY KEY (`Snapshot`)
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci;
+/*!40101 SET character_set_client = @saved_cs_client */;
+
+--
+-- Table structure for table `DM351`
+--
+
+DROP TABLE IF EXISTS `DM351`;
+/*!40101 SET @saved_cs_client     = @@character_set_client */;
+/*!50503 SET character_set_client = utf8mb4 */;
+CREATE TABLE `DM351` (
+  `Snapshot` int NOT NULL,
+  `Lookback` decimal(5,2) DEFAULT NULL,
+  `X` decimal(5,2) DEFAULT NULL,
+  `Y` decimal(5,2) DEFAULT NULL,
+  `Z` decimal(5,2) DEFAULT NULL,
+  `R` decimal(5,2) DEFAULT NULL,
+  `Mass` decimal(12,2) DEFAULT NULL,
+  `Mstars` decimal(12,2) DEFAULT NULL,
+  PRIMARY KEY (`Snapshot`)
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci;
+/*!40101 SET character_set_client = @saved_cs_client */;
+
+--
+-- Table structure for table `DM356`
+--
+
+DROP TABLE IF EXISTS `DM356`;
+/*!40101 SET @saved_cs_client     = @@character_set_client */;
+/*!50503 SET character_set_client = utf8mb4 */;
+CREATE TABLE `DM356` (
+  `Snapshot` int NOT NULL,
+  `Lookback` decimal(5,2) DEFAULT NULL,
+  `X` decimal(5,2) DEFAULT NULL,
+  `Y` decimal(5,2) DEFAULT NULL,
+  `Z` decimal(5,2) DEFAULT NULL,
+  `R` decimal(5,2) DEFAULT NULL,
+  `Mass` decimal(12,2) DEFAULT NULL,
+  `Mstars` decimal(12,2) DEFAULT NULL,
+  PRIMARY KEY (`Snapshot`)
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci;
+/*!40101 SET character_set_client = @saved_cs_client */;
+
+--
+-- Table structure for table `DM372`
+--
+
+DROP TABLE IF EXISTS `DM372`;
+/*!40101 SET @saved_cs_client     = @@character_set_client */;
+/*!50503 SET character_set_client = utf8mb4 */;
+CREATE TABLE `DM372` (
+  `Snapshot` int NOT NULL,
+  `Lookback` decimal(5,2) DEFAULT NULL,
+  `X` decimal(5,2) DEFAULT NULL,
+  `Y` decimal(5,2) DEFAULT NULL,
+  `Z` decimal(5,2) DEFAULT NULL,
+  `R` decimal(5,2) DEFAULT NULL,
+  `Mass` decimal(12,2) DEFAULT NULL,
+  `Mstars` decimal(12,2) DEFAULT NULL,
+  PRIMARY KEY (`Snapshot`)
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci;
+/*!40101 SET character_set_client = @saved_cs_client */;
+
+--
+-- Table structure for table `DM404`
+--
+
+DROP TABLE IF EXISTS `DM404`;
+/*!40101 SET @saved_cs_client     = @@character_set_client */;
+/*!50503 SET character_set_client = utf8mb4 */;
+CREATE TABLE `DM404` (
+  `Snapshot` int NOT NULL,
+  `Lookback` decimal(5,2) DEFAULT NULL,
+  `X` decimal(5,2) DEFAULT NULL,
+  `Y` decimal(5,2) DEFAULT NULL,
+  `Z` decimal(5,2) DEFAULT NULL,
+  `R` decimal(5,2) DEFAULT NULL,
+  `Mass` decimal(12,2) DEFAULT NULL,
+  `Mstars` decimal(12,2) DEFAULT NULL,
+  PRIMARY KEY (`Snapshot`)
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci;
+/*!40101 SET character_set_client = @saved_cs_client */;
+
+--
+-- Table structure for table `DM423`
+--
+
+DROP TABLE IF EXISTS `DM423`;
+/*!40101 SET @saved_cs_client     = @@character_set_client */;
+/*!50503 SET character_set_client = utf8mb4 */;
+CREATE TABLE `DM423` (
+  `Snapshot` int NOT NULL,
+  `Lookback` decimal(5,2) DEFAULT NULL,
+  `X` decimal(5,2) DEFAULT NULL,
+  `Y` decimal(5,2) DEFAULT NULL,
+  `Z` decimal(5,2) DEFAULT NULL,
+  `R` decimal(5,2) DEFAULT NULL,
+  `Mass` decimal(12,2) DEFAULT NULL,
+  `Mstars` decimal(12,2) DEFAULT NULL,
+  PRIMARY KEY (`Snapshot`)
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci;
+/*!40101 SET character_set_client = @saved_cs_client */;
+
+--
+-- Table structure for table `DM429`
+--
+
+DROP TABLE IF EXISTS `DM429`;
+/*!40101 SET @saved_cs_client     = @@character_set_client */;
+/*!50503 SET character_set_client = utf8mb4 */;
+CREATE TABLE `DM429` (
+  `Snapshot` int NOT NULL,
+  `Lookback` decimal(5,2) DEFAULT NULL,
+  `X` decimal(5,2) DEFAULT NULL,
+  `Y` decimal(5,2) DEFAULT NULL,
+  `Z` decimal(5,2) DEFAULT NULL,
+  `R` decimal(5,2) DEFAULT NULL,
+  `Mass` decimal(12,2) DEFAULT NULL,
+  `Mstars` decimal(12,2) DEFAULT NULL,
+  PRIMARY KEY (`Snapshot`)
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci;
+/*!40101 SET character_set_client = @saved_cs_client */;
+
+--
+-- Table structure for table `DM440`
+--
+
+DROP TABLE IF EXISTS `DM440`;
+/*!40101 SET @saved_cs_client     = @@character_set_client */;
+/*!50503 SET character_set_client = utf8mb4 */;
+CREATE TABLE `DM440` (
+  `Snapshot` int NOT NULL,
+  `Lookback` decimal(5,2) DEFAULT NULL,
+  `X` decimal(5,2) DEFAULT NULL,
+  `Y` decimal(5,2) DEFAULT NULL,
+  `Z` decimal(5,2) DEFAULT NULL,
+  `R` decimal(5,2) DEFAULT NULL,
+  `Mass` decimal(12,2) DEFAULT NULL,
+  `Mstars` decimal(12,2) DEFAULT NULL,
+  PRIMARY KEY (`Snapshot`)
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci;
+/*!40101 SET character_set_client = @saved_cs_client */;
+
+--
+-- Table structure for table `DM447`
+--
+
+DROP TABLE IF EXISTS `DM447`;
+/*!40101 SET @saved_cs_client     = @@character_set_client */;
+/*!50503 SET character_set_client = utf8mb4 */;
+CREATE TABLE `DM447` (
+  `Snapshot` int NOT NULL,
+  `Lookback` decimal(5,2) DEFAULT NULL,
+  `X` decimal(5,2) DEFAULT NULL,
+  `Y` decimal(5,2) DEFAULT NULL,
+  `Z` decimal(5,2) DEFAULT NULL,
+  `R` decimal(5,2) DEFAULT NULL,
+  `Mass` decimal(12,2) DEFAULT NULL,
+  `Mstars` decimal(12,2) DEFAULT NULL,
+  PRIMARY KEY (`Snapshot`)
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci;
+/*!40101 SET character_set_client = @saved_cs_client */;
+
+--
+-- Table structure for table `DM479`
+--
+
+DROP TABLE IF EXISTS `DM479`;
+/*!40101 SET @saved_cs_client     = @@character_set_client */;
+/*!50503 SET character_set_client = utf8mb4 */;
+CREATE TABLE `DM479` (
+  `Snapshot` int NOT NULL,
+  `Lookback` decimal(5,2) DEFAULT NULL,
+  `X` decimal(5,2) DEFAULT NULL,
+  `Y` decimal(5,2) DEFAULT NULL,
+  `Z` decimal(5,2) DEFAULT NULL,
+  `R` decimal(5,2) DEFAULT NULL,
+  `Mass` decimal(12,2) DEFAULT NULL,
+  `Mstars` decimal(12,2) DEFAULT NULL,
+  PRIMARY KEY (`Snapshot`)
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci;
+/*!40101 SET character_set_client = @saved_cs_client */;
+
+--
+-- Table structure for table `DM480`
+--
+
+DROP TABLE IF EXISTS `DM480`;
+/*!40101 SET @saved_cs_client     = @@character_set_client */;
+/*!50503 SET character_set_client = utf8mb4 */;
+CREATE TABLE `DM480` (
+  `Snapshot` int NOT NULL,
+  `Lookback` decimal(5,2) DEFAULT NULL,
+  `X` decimal(5,2) DEFAULT NULL,
+  `Y` decimal(5,2) DEFAULT NULL,
+  `Z` decimal(5,2) DEFAULT NULL,
+  `R` decimal(5,2) DEFAULT NULL,
+  `Mass` decimal(12,2) DEFAULT NULL,
+  `Mstars` decimal(12,2) DEFAULT NULL,
+  PRIMARY KEY (`Snapshot`)
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci;
+/*!40101 SET character_set_client = @saved_cs_client */;
+
+--
+-- Table structure for table `DM489`
+--
+
+DROP TABLE IF EXISTS `DM489`;
+/*!40101 SET @saved_cs_client     = @@character_set_client */;
+/*!50503 SET character_set_client = utf8mb4 */;
+CREATE TABLE `DM489` (
+  `Snapshot` int NOT NULL,
+  `Lookback` decimal(5,2) DEFAULT NULL,
+  `X` decimal(5,2) DEFAULT NULL,
+  `Y` decimal(5,2) DEFAULT NULL,
+  `Z` decimal(5,2) DEFAULT NULL,
+  `R` decimal(5,2) DEFAULT NULL,
+  `Mass` decimal(12,2) DEFAULT NULL,
+  `Mstars` decimal(12,2) DEFAULT NULL,
+  PRIMARY KEY (`Snapshot`)
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci;
+/*!40101 SET character_set_client = @saved_cs_client */;
+
+--
+-- Table structure for table `DM494`
+--
+
+DROP TABLE IF EXISTS `DM494`;
+/*!40101 SET @saved_cs_client     = @@character_set_client */;
+/*!50503 SET character_set_client = utf8mb4 */;
+CREATE TABLE `DM494` (
+  `Snapshot` int NOT NULL,
+  `Lookback` decimal(5,2) DEFAULT NULL,
+  `X` decimal(5,2) DEFAULT NULL,
+  `Y` decimal(5,2) DEFAULT NULL,
+  `Z` decimal(5,2) DEFAULT NULL,
+  `R` decimal(5,2) DEFAULT NULL,
+  `Mass` decimal(12,2) DEFAULT NULL,
+  `Mstars` decimal(12,2) DEFAULT NULL,
+  PRIMARY KEY (`Snapshot`)
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci;
+/*!40101 SET character_set_client = @saved_cs_client */;
+
+--
+-- Table structure for table `DM498`
+--
+
+DROP TABLE IF EXISTS `DM498`;
+/*!40101 SET @saved_cs_client     = @@character_set_client */;
+/*!50503 SET character_set_client = utf8mb4 */;
+CREATE TABLE `DM498` (
+  `Snapshot` int NOT NULL,
+  `Lookback` decimal(5,2) DEFAULT NULL,
+  `X` decimal(5,2) DEFAULT NULL,
+  `Y` decimal(5,2) DEFAULT NULL,
+  `Z` decimal(5,2) DEFAULT NULL,
+  `R` decimal(5,2) DEFAULT NULL,
+  `Mass` decimal(12,2) DEFAULT NULL,
+  `Mstars` decimal(12,2) DEFAULT NULL,
+  PRIMARY KEY (`Snapshot`)
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci;
+/*!40101 SET character_set_client = @saved_cs_client */;
+
+--
+-- Table structure for table `DM502`
+--
+
+DROP TABLE IF EXISTS `DM502`;
+/*!40101 SET @saved_cs_client     = @@character_set_client */;
+/*!50503 SET character_set_client = utf8mb4 */;
+CREATE TABLE `DM502` (
+  `Snapshot` int NOT NULL,
+  `Lookback` decimal(5,2) DEFAULT NULL,
+  `X` decimal(5,2) DEFAULT NULL,
+  `Y` decimal(5,2) DEFAULT NULL,
+  `Z` decimal(5,2) DEFAULT NULL,
+  `R` decimal(5,2) DEFAULT NULL,
+  `Mass` decimal(12,2) DEFAULT NULL,
+  `Mstars` decimal(12,2) DEFAULT NULL,
+  PRIMARY KEY (`Snapshot`)
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci;
+/*!40101 SET character_set_client = @saved_cs_client */;
+
+--
+-- Table structure for table `DM508`
+--
+
+DROP TABLE IF EXISTS `DM508`;
+/*!40101 SET @saved_cs_client     = @@character_set_client */;
+/*!50503 SET character_set_client = utf8mb4 */;
+CREATE TABLE `DM508` (
+  `Snapshot` int NOT NULL,
+  `Lookback` decimal(5,2) DEFAULT NULL,
+  `X` decimal(5,2) DEFAULT NULL,
+  `Y` decimal(5,2) DEFAULT NULL,
+  `Z` decimal(5,2) DEFAULT NULL,
+  `R` decimal(5,2) DEFAULT NULL,
+  `Mass` decimal(12,2) DEFAULT NULL,
+  `Mstars` decimal(12,2) DEFAULT NULL,
+  PRIMARY KEY (`Snapshot`)
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci;
+/*!40101 SET character_set_client = @saved_cs_client */;
+
+--
+-- Table structure for table `DM527`
+--
+
+DROP TABLE IF EXISTS `DM527`;
+/*!40101 SET @saved_cs_client     = @@character_set_client */;
+/*!50503 SET character_set_client = utf8mb4 */;
+CREATE TABLE `DM527` (
+  `Snapshot` int NOT NULL,
+  `Lookback` decimal(5,2) DEFAULT NULL,
+  `X` decimal(5,2) DEFAULT NULL,
+  `Y` decimal(5,2) DEFAULT NULL,
+  `Z` decimal(5,2) DEFAULT NULL,
+  `R` decimal(5,2) DEFAULT NULL,
+  `Mass` decimal(12,2) DEFAULT NULL,
+  `Mstars` decimal(12,2) DEFAULT NULL,
+  PRIMARY KEY (`Snapshot`)
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci;
+/*!40101 SET character_set_client = @saved_cs_client */;
+
+--
+-- Table structure for table `DM563`
+--
+
+DROP TABLE IF EXISTS `DM563`;
+/*!40101 SET @saved_cs_client     = @@character_set_client */;
+/*!50503 SET character_set_client = utf8mb4 */;
+CREATE TABLE `DM563` (
+  `Snapshot` int NOT NULL,
+  `Lookback` decimal(5,2) DEFAULT NULL,
+  `X` decimal(5,2) DEFAULT NULL,
+  `Y` decimal(5,2) DEFAULT NULL,
+  `Z` decimal(5,2) DEFAULT NULL,
+  `R` decimal(5,2) DEFAULT NULL,
+  `Mass` decimal(12,2) DEFAULT NULL,
+  `Mstars` decimal(12,2) DEFAULT NULL,
+  PRIMARY KEY (`Snapshot`)
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci;
+/*!40101 SET character_set_client = @saved_cs_client */;
+
+--
+-- Table structure for table `DM57`
+--
+
+DROP TABLE IF EXISTS `DM57`;
+/*!40101 SET @saved_cs_client     = @@character_set_client */;
+/*!50503 SET character_set_client = utf8mb4 */;
+CREATE TABLE `DM57` (
+  `Snapshot` int NOT NULL,
+  `Lookback` decimal(5,2) DEFAULT NULL,
+  `X` decimal(5,2) DEFAULT NULL,
+  `Y` decimal(5,2) DEFAULT NULL,
+  `Z` decimal(5,2) DEFAULT NULL,
+  `R` decimal(5,2) DEFAULT NULL,
+  `Mass` decimal(12,2) DEFAULT NULL,
+  `Mstars` decimal(12,2) DEFAULT NULL,
+  PRIMARY KEY (`Snapshot`)
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci;
+/*!40101 SET character_set_client = @saved_cs_client */;
+
+--
+-- Table structure for table `DM58`
+--
+
+DROP TABLE IF EXISTS `DM58`;
+/*!40101 SET @saved_cs_client     = @@character_set_client */;
+/*!50503 SET character_set_client = utf8mb4 */;
+CREATE TABLE `DM58` (
+  `Snapshot` int NOT NULL,
+  `Lookback` decimal(5,2) DEFAULT NULL,
+  `X` decimal(5,2) DEFAULT NULL,
+  `Y` decimal(5,2) DEFAULT NULL,
+  `Z` decimal(5,2) DEFAULT NULL,
+  `R` decimal(5,2) DEFAULT NULL,
+  `Mass` decimal(12,2) DEFAULT NULL,
+  `Mstars` decimal(12,2) DEFAULT NULL,
+  PRIMARY KEY (`Snapshot`)
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci;
+/*!40101 SET character_set_client = @saved_cs_client */;
+
+--
+-- Table structure for table `DM598`
+--
+
+DROP TABLE IF EXISTS `DM598`;
+/*!40101 SET @saved_cs_client     = @@character_set_client */;
+/*!50503 SET character_set_client = utf8mb4 */;
+CREATE TABLE `DM598` (
+  `Snapshot` int NOT NULL,
+  `Lookback` decimal(5,2) DEFAULT NULL,
+  `X` decimal(5,2) DEFAULT NULL,
+  `Y` decimal(5,2) DEFAULT NULL,
+  `Z` decimal(5,2) DEFAULT NULL,
+  `R` decimal(5,2) DEFAULT NULL,
+  `Mass` decimal(12,2) DEFAULT NULL,
+  `Mstars` decimal(12,2) DEFAULT NULL,
+  PRIMARY KEY (`Snapshot`)
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci;
+/*!40101 SET character_set_client = @saved_cs_client */;
+
+--
+-- Table structure for table `DM61`
+--
+
+DROP TABLE IF EXISTS `DM61`;
+/*!40101 SET @saved_cs_client     = @@character_set_client */;
+/*!50503 SET character_set_client = utf8mb4 */;
+CREATE TABLE `DM61` (
+  `Snapshot` int NOT NULL,
+  `Lookback` decimal(5,2) DEFAULT NULL,
+  `X` decimal(5,2) DEFAULT NULL,
+  `Y` decimal(5,2) DEFAULT NULL,
+  `Z` decimal(5,2) DEFAULT NULL,
+  `R` decimal(5,2) DEFAULT NULL,
+  `Mass` decimal(12,2) DEFAULT NULL,
+  `Mstars` decimal(12,2) DEFAULT NULL,
+  PRIMARY KEY (`Snapshot`)
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci;
+/*!40101 SET character_set_client = @saved_cs_client */;
+
+--
+-- Table structure for table `DM62`
+--
+
+DROP TABLE IF EXISTS `DM62`;
+/*!40101 SET @saved_cs_client     = @@character_set_client */;
+/*!50503 SET character_set_client = utf8mb4 */;
+CREATE TABLE `DM62` (
+  `Snapshot` int NOT NULL,
+  `Lookback` decimal(5,2) DEFAULT NULL,
+  `X` decimal(5,2) DEFAULT NULL,
+  `Y` decimal(5,2) DEFAULT NULL,
+  `Z` decimal(5,2) DEFAULT NULL,
+  `R` decimal(5,2) DEFAULT NULL,
+  `Mass` decimal(12,2) DEFAULT NULL,
+  `Mstars` decimal(12,2) DEFAULT NULL,
+  PRIMARY KEY (`Snapshot`)
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci;
+/*!40101 SET character_set_client = @saved_cs_client */;
+
+--
+-- Table structure for table `DM63`
+--
+
+DROP TABLE IF EXISTS `DM63`;
+/*!40101 SET @saved_cs_client     = @@character_set_client */;
+/*!50503 SET character_set_client = utf8mb4 */;
+CREATE TABLE `DM63` (
+  `Snapshot` int NOT NULL,
+  `Lookback` decimal(5,2) DEFAULT NULL,
+  `X` decimal(5,2) DEFAULT NULL,
+  `Y` decimal(5,2) DEFAULT NULL,
+  `Z` decimal(5,2) DEFAULT NULL,
+  `R` decimal(5,2) DEFAULT NULL,
+  `Mass` decimal(12,2) DEFAULT NULL,
+  `Mstars` decimal(12,2) DEFAULT NULL,
+  PRIMARY KEY (`Snapshot`)
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci;
+/*!40101 SET character_set_client = @saved_cs_client */;
+
+--
+-- Table structure for table `DM668`
+--
+
+DROP TABLE IF EXISTS `DM668`;
+/*!40101 SET @saved_cs_client     = @@character_set_client */;
+/*!50503 SET character_set_client = utf8mb4 */;
+CREATE TABLE `DM668` (
+  `Snapshot` int NOT NULL,
+  `Lookback` decimal(5,2) DEFAULT NULL,
+  `X` decimal(5,2) DEFAULT NULL,
+  `Y` decimal(5,2) DEFAULT NULL,
+  `Z` decimal(5,2) DEFAULT NULL,
+  `R` decimal(5,2) DEFAULT NULL,
+  `Mass` decimal(12,2) DEFAULT NULL,
+  `Mstars` decimal(12,2) DEFAULT NULL,
+  PRIMARY KEY (`Snapshot`)
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci;
+/*!40101 SET character_set_client = @saved_cs_client */;
+
+--
+-- Table structure for table `DM684`
+--
+
+DROP TABLE IF EXISTS `DM684`;
+/*!40101 SET @saved_cs_client     = @@character_set_client */;
+/*!50503 SET character_set_client = utf8mb4 */;
+CREATE TABLE `DM684` (
+  `Snapshot` int NOT NULL,
+  `Lookback` decimal(5,2) DEFAULT NULL,
+  `X` decimal(5,2) DEFAULT NULL,
+  `Y` decimal(5,2) DEFAULT NULL,
+  `Z` decimal(5,2) DEFAULT NULL,
+  `R` decimal(5,2) DEFAULT NULL,
+  `Mass` decimal(12,2) DEFAULT NULL,
+  `Mstars` decimal(12,2) DEFAULT NULL,
+  PRIMARY KEY (`Snapshot`)
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci;
+/*!40101 SET character_set_client = @saved_cs_client */;
+
+--
+-- Table structure for table `DM699`
+--
+
+DROP TABLE IF EXISTS `DM699`;
+/*!40101 SET @saved_cs_client     = @@character_set_client */;
+/*!50503 SET character_set_client = utf8mb4 */;
+CREATE TABLE `DM699` (
+  `Snapshot` int NOT NULL,
+  `Lookback` decimal(5,2) DEFAULT NULL,
+  `X` decimal(5,2) DEFAULT NULL,
+  `Y` decimal(5,2) DEFAULT NULL,
+  `Z` decimal(5,2) DEFAULT NULL,
+  `R` decimal(5,2) DEFAULT NULL,
+  `Mass` decimal(12,2) DEFAULT NULL,
+  `Mstars` decimal(12,2) DEFAULT NULL,
+  PRIMARY KEY (`Snapshot`)
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci;
+/*!40101 SET character_set_client = @saved_cs_client */;
+
+--
+-- Table structure for table `DM718`
+--
+
+DROP TABLE IF EXISTS `DM718`;
+/*!40101 SET @saved_cs_client     = @@character_set_client */;
+/*!50503 SET character_set_client = utf8mb4 */;
+CREATE TABLE `DM718` (
+  `Snapshot` int NOT NULL,
+  `Lookback` decimal(5,2) DEFAULT NULL,
+  `X` decimal(5,2) DEFAULT NULL,
+  `Y` decimal(5,2) DEFAULT NULL,
+  `Z` decimal(5,2) DEFAULT NULL,
+  `R` decimal(5,2) DEFAULT NULL,
+  `Mass` decimal(12,2) DEFAULT NULL,
+  `Mstars` decimal(12,2) DEFAULT NULL,
+  PRIMARY KEY (`Snapshot`)
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci;
+/*!40101 SET character_set_client = @saved_cs_client */;
+
+--
+-- Table structure for table `DM726`
+--
+
+DROP TABLE IF EXISTS `DM726`;
+/*!40101 SET @saved_cs_client     = @@character_set_client */;
+/*!50503 SET character_set_client = utf8mb4 */;
+CREATE TABLE `DM726` (
+  `Snapshot` int NOT NULL,
+  `Lookback` decimal(5,2) DEFAULT NULL,
+  `X` decimal(5,2) DEFAULT NULL,
+  `Y` decimal(5,2) DEFAULT NULL,
+  `Z` decimal(5,2) DEFAULT NULL,
+  `R` decimal(5,2) DEFAULT NULL,
+  `Mass` decimal(12,2) DEFAULT NULL,
+  `Mstars` decimal(12,2) DEFAULT NULL,
+  PRIMARY KEY (`Snapshot`)
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci;
+/*!40101 SET character_set_client = @saved_cs_client */;
+
+--
+-- Table structure for table `DM750`
+--
+
+DROP TABLE IF EXISTS `DM750`;
+/*!40101 SET @saved_cs_client     = @@character_set_client */;
+/*!50503 SET character_set_client = utf8mb4 */;
+CREATE TABLE `DM750` (
+  `Snapshot` int NOT NULL,
+  `Lookback` decimal(5,2) DEFAULT NULL,
+  `X` decimal(5,2) DEFAULT NULL,
+  `Y` decimal(5,2) DEFAULT NULL,
+  `Z` decimal(5,2) DEFAULT NULL,
+  `R` decimal(5,2) DEFAULT NULL,
+  `Mass` decimal(12,2) DEFAULT NULL,
+  `Mstars` decimal(12,2) DEFAULT NULL,
+  PRIMARY KEY (`Snapshot`)
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci;
+/*!40101 SET character_set_client = @saved_cs_client */;
+
+--
+-- Table structure for table `DM753`
+--
+
+DROP TABLE IF EXISTS `DM753`;
+/*!40101 SET @saved_cs_client     = @@character_set_client */;
+/*!50503 SET character_set_client = utf8mb4 */;
+CREATE TABLE `DM753` (
+  `Snapshot` int NOT NULL,
+  `Lookback` decimal(5,2) DEFAULT NULL,
+  `X` decimal(5,2) DEFAULT NULL,
+  `Y` decimal(5,2) DEFAULT NULL,
+  `Z` decimal(5,2) DEFAULT NULL,
+  `R` decimal(5,2) DEFAULT NULL,
+  `Mass` decimal(12,2) DEFAULT NULL,
+  `Mstars` decimal(12,2) DEFAULT NULL,
+  PRIMARY KEY (`Snapshot`)
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci;
+/*!40101 SET character_set_client = @saved_cs_client */;
+
+--
+-- Table structure for table `DM769`
+--
+
+DROP TABLE IF EXISTS `DM769`;
+/*!40101 SET @saved_cs_client     = @@character_set_client */;
+/*!50503 SET character_set_client = utf8mb4 */;
+CREATE TABLE `DM769` (
+  `Snapshot` int NOT NULL,
+  `Lookback` decimal(5,2) DEFAULT NULL,
+  `X` decimal(5,2) DEFAULT NULL,
+  `Y` decimal(5,2) DEFAULT NULL,
+  `Z` decimal(5,2) DEFAULT NULL,
+  `R` decimal(5,2) DEFAULT NULL,
+  `Mass` decimal(12,2) DEFAULT NULL,
+  `Mstars` decimal(12,2) DEFAULT NULL,
+  PRIMARY KEY (`Snapshot`)
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci;
+/*!40101 SET character_set_client = @saved_cs_client */;
+
+--
+-- Table structure for table `DM771`
+--
+
+DROP TABLE IF EXISTS `DM771`;
+/*!40101 SET @saved_cs_client     = @@character_set_client */;
+/*!50503 SET character_set_client = utf8mb4 */;
+CREATE TABLE `DM771` (
+  `Snapshot` int NOT NULL,
+  `Lookback` decimal(5,2) DEFAULT NULL,
+  `X` decimal(5,2) DEFAULT NULL,
+  `Y` decimal(5,2) DEFAULT NULL,
+  `Z` decimal(5,2) DEFAULT NULL,
+  `R` decimal(5,2) DEFAULT NULL,
+  `Mass` decimal(12,2) DEFAULT NULL,
+  `Mstars` decimal(12,2) DEFAULT NULL,
+  PRIMARY KEY (`Snapshot`)
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci;
+/*!40101 SET character_set_client = @saved_cs_client */;
+
+--
+-- Table structure for table `DM772`
+--
+
+DROP TABLE IF EXISTS `DM772`;
+/*!40101 SET @saved_cs_client     = @@character_set_client */;
+/*!50503 SET character_set_client = utf8mb4 */;
+CREATE TABLE `DM772` (
+  `Snapshot` int NOT NULL,
+  `Lookback` decimal(5,2) DEFAULT NULL,
+  `X` decimal(5,2) DEFAULT NULL,
+  `Y` decimal(5,2) DEFAULT NULL,
+  `Z` decimal(5,2) DEFAULT NULL,
+  `R` decimal(5,2) DEFAULT NULL,
+  `Mass` decimal(12,2) DEFAULT NULL,
+  `Mstars` decimal(12,2) DEFAULT NULL,
+  PRIMARY KEY (`Snapshot`)
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci;
+/*!40101 SET character_set_client = @saved_cs_client */;
+
+--
+-- Table structure for table `DM821`
+--
+
+DROP TABLE IF EXISTS `DM821`;
+/*!40101 SET @saved_cs_client     = @@character_set_client */;
+/*!50503 SET character_set_client = utf8mb4 */;
+CREATE TABLE `DM821` (
+  `Snapshot` int NOT NULL,
+  `Lookback` decimal(5,2) DEFAULT NULL,
+  `X` decimal(5,2) DEFAULT NULL,
+  `Y` decimal(5,2) DEFAULT NULL,
+  `Z` decimal(5,2) DEFAULT NULL,
+  `R` decimal(5,2) DEFAULT NULL,
+  `Mass` decimal(12,2) DEFAULT NULL,
+  `Mstars` decimal(12,2) DEFAULT NULL,
+  PRIMARY KEY (`Snapshot`)
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci;
+/*!40101 SET character_set_client = @saved_cs_client */;
+
+--
+-- Table structure for table `DM844`
+--
+
+DROP TABLE IF EXISTS `DM844`;
+/*!40101 SET @saved_cs_client     = @@character_set_client */;
+/*!50503 SET character_set_client = utf8mb4 */;
+CREATE TABLE `DM844` (
+  `Snapshot` int NOT NULL,
+  `Lookback` decimal(5,2) DEFAULT NULL,
+  `X` decimal(5,2) DEFAULT NULL,
+  `Y` decimal(5,2) DEFAULT NULL,
+  `Z` decimal(5,2) DEFAULT NULL,
+  `R` decimal(5,2) DEFAULT NULL,
+  `Mass` decimal(12,2) DEFAULT NULL,
+  `Mstars` decimal(12,2) DEFAULT NULL,
+  PRIMARY KEY (`Snapshot`)
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci;
+/*!40101 SET character_set_client = @saved_cs_client */;
+
+--
+-- Table structure for table `DM90`
+--
+
+DROP TABLE IF EXISTS `DM90`;
+/*!40101 SET @saved_cs_client     = @@character_set_client */;
+/*!50503 SET character_set_client = utf8mb4 */;
+CREATE TABLE `DM90` (
+  `Snapshot` int NOT NULL,
+  `Lookback` decimal(5,2) DEFAULT NULL,
+  `X` decimal(5,2) DEFAULT NULL,
+  `Y` decimal(5,2) DEFAULT NULL,
+  `Z` decimal(5,2) DEFAULT NULL,
+  `R` decimal(5,2) DEFAULT NULL,
+  `Mass` decimal(12,2) DEFAULT NULL,
+  `Mstars` decimal(12,2) DEFAULT NULL,
+  PRIMARY KEY (`Snapshot`)
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci;
+/*!40101 SET character_set_client = @saved_cs_client */;
+
+--
+-- Table structure for table `DM902`
+--
+
+DROP TABLE IF EXISTS `DM902`;
+/*!40101 SET @saved_cs_client     = @@character_set_client */;
+/*!50503 SET character_set_client = utf8mb4 */;
+CREATE TABLE `DM902` (
+  `Snapshot` int NOT NULL,
+  `Lookback` decimal(5,2) DEFAULT NULL,
+  `X` decimal(5,2) DEFAULT NULL,
+  `Y` decimal(5,2) DEFAULT NULL,
+  `Z` decimal(5,2) DEFAULT NULL,
+  `R` decimal(5,2) DEFAULT NULL,
+  `Mass` decimal(12,2) DEFAULT NULL,
+  `Mstars` decimal(12,2) DEFAULT NULL,
+  PRIMARY KEY (`Snapshot`)
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci;
+/*!40101 SET character_set_client = @saved_cs_client */;
+
+--
+-- Table structure for table `DM912`
+--
+
+DROP TABLE IF EXISTS `DM912`;
+/*!40101 SET @saved_cs_client     = @@character_set_client */;
+/*!50503 SET character_set_client = utf8mb4 */;
+CREATE TABLE `DM912` (
+  `Snapshot` int NOT NULL,
+  `Lookback` decimal(5,2) DEFAULT NULL,
+  `X` decimal(5,2) DEFAULT NULL,
+  `Y` decimal(5,2) DEFAULT NULL,
+  `Z` decimal(5,2) DEFAULT NULL,
+  `R` decimal(5,2) DEFAULT NULL,
+  `Mass` decimal(12,2) DEFAULT NULL,
+  `Mstars` decimal(12,2) DEFAULT NULL,
+  PRIMARY KEY (`Snapshot`)
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci;
+/*!40101 SET character_set_client = @saved_cs_client */;
+
+--
+-- Table structure for table `DM978`
+--
+
+DROP TABLE IF EXISTS `DM978`;
+/*!40101 SET @saved_cs_client     = @@character_set_client */;
+/*!50503 SET character_set_client = utf8mb4 */;
+CREATE TABLE `DM978` (
+  `Snapshot` int NOT NULL,
+  `Lookback` decimal(5,2) DEFAULT NULL,
+  `X` decimal(5,2) DEFAULT NULL,
+  `Y` decimal(5,2) DEFAULT NULL,
+  `Z` decimal(5,2) DEFAULT NULL,
+  `R` decimal(5,2) DEFAULT NULL,
+  `Mass` decimal(12,2) DEFAULT NULL,
+  `Mstars` decimal(12,2) DEFAULT NULL,
+  PRIMARY KEY (`Snapshot`)
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci;
+/*!40101 SET character_set_client = @saved_cs_client */;
+
+--
+-- Table structure for table `halos_S620`
+--
+
+DROP TABLE IF EXISTS `halos_S620`;
+/*!40101 SET @saved_cs_client     = @@character_set_client */;
+/*!50503 SET character_set_client = utf8mb4 */;
+CREATE TABLE `halos_S620` (
+  `id` int NOT NULL,
+  `id_pre` int DEFAULT NULL,
+  `X` decimal(8,2) DEFAULT NULL,
+  `Y` decimal(8,2) DEFAULT NULL,
+  `Z` decimal(8,2) DEFAULT NULL,
+  `M200` bigint DEFAULT NULL,
+  `Mstars` bigint DEFAULT NULL,
+  `Rvir` decimal(10,2) DEFAULT NULL,
+  PRIMARY KEY (`id`)
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci;
+/*!40101 SET character_set_client = @saved_cs_client */;
+
+--
+-- Table structure for table `halos_S689`
+--
+
+DROP TABLE IF EXISTS `halos_S689`;
+/*!40101 SET @saved_cs_client     = @@character_set_client */;
+/*!50503 SET character_set_client = utf8mb4 */;
+CREATE TABLE `halos_S689` (
+  `id` int NOT NULL,
+  `id_pre` int DEFAULT NULL,
+  `X` decimal(8,2) DEFAULT NULL,
+  `Y` decimal(8,2) DEFAULT NULL,
+  `Z` decimal(8,2) DEFAULT NULL,
+  `M200` bigint DEFAULT NULL,
+  `Mstars` bigint DEFAULT NULL,
+  `Rvir` decimal(10,2) DEFAULT NULL,
+  PRIMARY KEY (`id`)
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci;
+/*!40101 SET character_set_client = @saved_cs_client */;
+
+--
+-- Table structure for table `halos_S720`
+--
+
+DROP TABLE IF EXISTS `halos_S720`;
+/*!40101 SET @saved_cs_client     = @@character_set_client */;
+/*!50503 SET character_set_client = utf8mb4 */;
+CREATE TABLE `halos_S720` (
+  `id` int NOT NULL,
+  `id_pre` int DEFAULT NULL,
+  `X` decimal(8,2) DEFAULT NULL,
+  `Y` decimal(8,2) DEFAULT NULL,
+  `Z` decimal(8,2) DEFAULT NULL,
+  `M200` bigint DEFAULT NULL,
+  `Mstars` bigint DEFAULT NULL,
+  `Rvir` decimal(10,2) DEFAULT NULL,
+  PRIMARY KEY (`id`)
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci;
+/*!40101 SET character_set_client = @saved_cs_client */;
+
+--
+-- Table structure for table `halos_S740`
+--
+
+DROP TABLE IF EXISTS `halos_S740`;
+/*!40101 SET @saved_cs_client     = @@character_set_client */;
+/*!50503 SET character_set_client = utf8mb4 */;
+CREATE TABLE `halos_S740` (
+  `id` int NOT NULL,
+  `id_pre` int DEFAULT NULL,
+  `X` decimal(8,2) DEFAULT NULL,
+  `Y` decimal(8,2) DEFAULT NULL,
+  `Z` decimal(8,2) DEFAULT NULL,
+  `M200` bigint DEFAULT NULL,
+  `Mstars` bigint DEFAULT NULL,
+  `Rvir` decimal(10,2) DEFAULT NULL,
+  PRIMARY KEY (`id`)
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci;
+/*!40101 SET character_set_client = @saved_cs_client */;
+
+--
+-- Table structure for table `halos_S805`
+--
+
+DROP TABLE IF EXISTS `halos_S805`;
+/*!40101 SET @saved_cs_client     = @@character_set_client */;
+/*!50503 SET character_set_client = utf8mb4 */;
+CREATE TABLE `halos_S805` (
+  `id` int NOT NULL,
+  `id_pre` int DEFAULT NULL,
+  `X` decimal(8,2) DEFAULT NULL,
+  `Y` decimal(8,2) DEFAULT NULL,
+  `Z` decimal(8,2) DEFAULT NULL,
+  `M200` bigint DEFAULT NULL,
+  `Mstars` bigint DEFAULT NULL,
+  `Rvir` decimal(10,2) DEFAULT NULL,
+  PRIMARY KEY (`id`)
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci;
+/*!40101 SET character_set_client = @saved_cs_client */;
+
+--
+-- Table structure for table `halos_S850`
+--
+
+DROP TABLE IF EXISTS `halos_S850`;
+/*!40101 SET @saved_cs_client     = @@character_set_client */;
+/*!50503 SET character_set_client = utf8mb4 */;
+CREATE TABLE `halos_S850` (
+  `id` int NOT NULL,
+  `id_pre` int DEFAULT NULL,
+  `X` decimal(8,2) DEFAULT NULL,
+  `Y` decimal(8,2) DEFAULT NULL,
+  `Z` decimal(8,2) DEFAULT NULL,
+  `M200` bigint DEFAULT NULL,
+  `Mstars` bigint DEFAULT NULL,
+  `Rvir` decimal(10,2) DEFAULT NULL,
+  PRIMARY KEY (`id`)
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci;
+/*!40101 SET character_set_client = @saved_cs_client */;
+
+--
+-- Table structure for table `halos_S900`
+--
+
+DROP TABLE IF EXISTS `halos_S900`;
+/*!40101 SET @saved_cs_client     = @@character_set_client */;
+/*!50503 SET character_set_client = utf8mb4 */;
+CREATE TABLE `halos_S900` (
+  `id` int NOT NULL,
+  `id_pre` int DEFAULT NULL,
+  `X` decimal(8,2) DEFAULT NULL,
+  `Y` decimal(8,2) DEFAULT NULL,
+  `Z` decimal(8,2) DEFAULT NULL,
+  `M200` bigint DEFAULT NULL,
+  `Mstars` bigint DEFAULT NULL,
+  `Rvir` decimal(10,2) DEFAULT NULL,
+  PRIMARY KEY (`id`)
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci;
+/*!40101 SET character_set_client = @saved_cs_client */;
+
+--
+-- Table structure for table `halos_S910`
+--
+
+DROP TABLE IF EXISTS `halos_S910`;
+/*!40101 SET @saved_cs_client     = @@character_set_client */;
+/*!50503 SET character_set_client = utf8mb4 */;
+CREATE TABLE `halos_S910` (
+  `id` int NOT NULL,
+  `id_pre` int DEFAULT NULL,
+  `X` decimal(8,2) DEFAULT NULL,
+  `Y` decimal(8,2) DEFAULT NULL,
+  `Z` decimal(8,2) DEFAULT NULL,
+  `M200` bigint DEFAULT NULL,
+  `Mstars` bigint DEFAULT NULL,
+  `Rvir` decimal(10,2) DEFAULT NULL,
+  PRIMARY KEY (`id`)
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci;
+/*!40101 SET character_set_client = @saved_cs_client */;
+
+--
+-- Table structure for table `halos_S993`
+--
+
+DROP TABLE IF EXISTS `halos_S993`;
+/*!40101 SET @saved_cs_client     = @@character_set_client */;
+/*!50503 SET character_set_client = utf8mb4 */;
+CREATE TABLE `halos_S993` (
+  `id` int NOT NULL,
+  `id_pre` int DEFAULT NULL,
+  `X` decimal(8,2) DEFAULT NULL,
+  `Y` decimal(8,2) DEFAULT NULL,
+  `Z` decimal(8,2) DEFAULT NULL,
+  `M200` bigint DEFAULT NULL,
+  `Mstars` bigint DEFAULT NULL,
+  `Rvir` decimal(10,2) DEFAULT NULL,
+  PRIMARY KEY (`id`)
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci;
+/*!40101 SET character_set_client = @saved_cs_client */;
+
+--
+-- Table structure for table `satellites_characteristics`
+--
+
+DROP TABLE IF EXISTS `satellites_characteristics`;
+/*!40101 SET @saved_cs_client     = @@character_set_client */;
+/*!50503 SET character_set_client = utf8mb4 */;
+CREATE TABLE `satellites_characteristics` (
+  `id` int NOT NULL,
+  `R200` decimal(5,2) DEFAULT NULL,
+  `M200` bigint DEFAULT NULL,
+  `Mstars` bigint DEFAULT NULL,
+  `Rmin` decimal(8,2) DEFAULT NULL,
+  `Init` decimal(5,2) DEFAULT NULL,
+  `Fin` decimal(5,2) DEFAULT NULL,
+  PRIMARY KEY (`id`)
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci;
+/*!40101 SET character_set_client = @saved_cs_client */;
+
+--
+-- Table structure for table `satellites_crossmatch`
+--
+
+DROP TABLE IF EXISTS `satellites_crossmatch`;
+/*!40101 SET @saved_cs_client     = @@character_set_client */;
+/*!50503 SET character_set_client = utf8mb4 */;
+CREATE TABLE `satellites_crossmatch` (
+  `id` int NOT NULL,
+  `S620` int DEFAULT NULL,
+  `S689` int DEFAULT NULL,
+  `S720` int DEFAULT NULL,
+  `S740` int DEFAULT NULL,
+  `S805` int DEFAULT NULL,
+  `S850` int DEFAULT NULL,
+  `S900` int DEFAULT NULL,
+  `S910` int DEFAULT NULL,
+  `S993` int DEFAULT NULL,
+  PRIMARY KEY (`id`),
+  KEY `fk_s620` (`S620`),
+  KEY `fk_s689` (`S689`),
+  KEY `fk_s720` (`S720`),
+  KEY `fk_s740` (`S740`),
+  KEY `fk_s805` (`S805`),
+  KEY `fk_s850` (`S850`),
+  KEY `fk_s900` (`S900`),
+  KEY `fk_s910` (`S910`),
+  KEY `fk_s993` (`S993`),
+  CONSTRAINT `fk_s620` FOREIGN KEY (`S620`) REFERENCES `halos_S620` (`id`),
+  CONSTRAINT `fk_s689` FOREIGN KEY (`S689`) REFERENCES `halos_S689` (`id`),
+  CONSTRAINT `fk_s720` FOREIGN KEY (`S720`) REFERENCES `halos_S720` (`id`),
+  CONSTRAINT `fk_s740` FOREIGN KEY (`S740`) REFERENCES `halos_S740` (`id`),
+  CONSTRAINT `fk_s805` FOREIGN KEY (`S805`) REFERENCES `halos_S805` (`id`),
+  CONSTRAINT `fk_s850` FOREIGN KEY (`S850`) REFERENCES `halos_S850` (`id`),
+  CONSTRAINT `fk_s900` FOREIGN KEY (`S900`) REFERENCES `halos_S900` (`id`),
+  CONSTRAINT `fk_s910` FOREIGN KEY (`S910`) REFERENCES `halos_S910` (`id`),
+  CONSTRAINT `fk_s993` FOREIGN KEY (`S993`) REFERENCES `halos_S993` (`id`)
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci;
+/*!40101 SET character_set_client = @saved_cs_client */;
+
+--
+-- Dumping routines for database 'Rockstar_satellites_GARROTXA'
+--
+/*!40103 SET TIME_ZONE=@OLD_TIME_ZONE */;
+
+/*!40101 SET SQL_MODE=@OLD_SQL_MODE */;
+/*!40014 SET FOREIGN_KEY_CHECKS=@OLD_FOREIGN_KEY_CHECKS */;
+/*!40014 SET UNIQUE_CHECKS=@OLD_UNIQUE_CHECKS */;
+/*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;
+/*!40101 SET CHARACTER_SET_RESULTS=@OLD_CHARACTER_SET_RESULTS */;
+/*!40101 SET COLLATION_CONNECTION=@OLD_COLLATION_CONNECTION */;
+/*!40111 SET SQL_NOTES=@OLD_SQL_NOTES */;
+
+-- Dump completed on 2023-09-27 17:24:36
